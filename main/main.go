@@ -1,17 +1,31 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
+	"fmt"
+	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"net/http"
 )
 
+var db *sql.DB
+
+func init() {
+	database, err := sql.Open("sqlite3", "questions.db")
+	if err != nil {
+		fmt.Println("无法连接数据库:", err)
+		return
+	}
+	db = database
+}
+
 type Result struct {
-	Content         string `json:"content"`
 	Title           string `json:"title"`
-	ID              int    `json:"id"`
+	ID              string `json:"id"`
 	Algorithm_label string `json:"algorithm_label"`
 	URL             string `json:"url"`
+	Difficulty      string `json:"difficulty"`
 }
 
 // 接收GET请求
@@ -27,24 +41,31 @@ func Search(w http.ResponseWriter, request *http.Request) {
 	search := query.Get("search")
 
 	log.Printf("GET: search=%s\n", search)
-	results := []Result{
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-		{Content: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.", Title: "Two-Sum", ID: 1, Algorithm_label: "Array,Hash Table", URL: "https://leetcode.com/problems/two-sum/"},
-	}
+	result := GetSpecificQuestionFromDataBase(search)
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	json.NewEncoder(w).Encode(results)
+	json.NewEncoder(w).Encode(result)
+}
+
+func GetSpecificQuestionFromDataBase(search string) Result {
+	var res Result
+	query := "SELECT * FROM users WHERE questionId = " + search
+	rows, err := db.Query(query)
+	if err != nil {
+		fmt.Println("无法查询数据:", err)
+		return Result{}
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&res.Title, &res.ID, &res.Difficulty, &res.Algorithm_label, &res.URL)
+		if err != nil {
+			fmt.Println("数据扫描错误:", err)
+			return Result{}
+		}
+	}
+
+	return res
 }
 
 func main() {
