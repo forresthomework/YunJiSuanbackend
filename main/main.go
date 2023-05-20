@@ -49,7 +49,7 @@ func Search(w http.ResponseWriter, request *http.Request) {
 
 func GetSpecificQuestionFromDataBase(search string) Result {
 	var res Result
-	query := "SELECT * FROM users WHERE questionId = " + search
+	query := "SELECT * FROM questions WHERE questionId = " + search
 	rows, err := db.Query(query)
 	if err != nil {
 		fmt.Println("无法查询数据:", err)

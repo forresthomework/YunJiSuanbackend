@@ -1,0 +1,2177 @@
+1 Two Sum Easy array hash-table
+2 Add Two Numbers Medium linked-list math recursion
+3 Longest Substring Without Repeating Characters Medium hash-table string sliding-window
+4 Median of Two Sorted Arrays Hard array binary-search divide-and-conquer
+5 Longest Palindromic Substring Medium string dynamic-programming
+6 Zigzag Conversion Medium string
+7 Reverse Integer Medium math
+8 String to Integer (atoi) Medium string
+9 Palindrome Number Easy math
+10 Regular Expression Matching Hard string dynamic-programming recursion
+11 Container With Most Water Medium array two-pointers greedy
+12 Integer to Roman Medium hash-table math string
+13 Roman to Integer Easy hash-table math string
+14 Longest Common Prefix Easy string trie
+15 3Sum Medium array two-pointers sorting
+16 3Sum Closest Medium array two-pointers sorting
+17 Letter Combinations of a Phone Number Medium hash-table string backtracking
+18 4Sum Medium array two-pointers sorting
+19 Remove Nth Node From End of List Medium linked-list two-pointers
+20 Valid Parentheses Easy string stack
+21 Merge Two Sorted Lists Easy linked-list recursion
+22 Generate Parentheses Medium string dynamic-programming backtracking
+23 Merge k Sorted Lists Hard linked-list divide-and-conquer heap-priority-queue merge-sort
+24 Swap Nodes in Pairs Medium linked-list recursion
+25 Reverse Nodes in k-Group Hard linked-list recursion
+26 Remove Duplicates from Sorted Array Easy array two-pointers
+27 Remove Element Easy array two-pointers
+28 Find the Index of the First Occurrence in a String Easy two-pointers string string-matching
+29 Divide Two Integers Medium math bit-manipulation
+30 Substring with Concatenation of All Words Hard hash-table string sliding-window
+31 Next Permutation Medium array two-pointers
+32 Longest Valid Parentheses Hard string dynamic-programming stack
+33 Search in Rotated Sorted Array Medium array binary-search
+34 Find First and Last Position of Element in Sorted Array Medium array binary-search
+35 Search Insert Position Easy array binary-search
+36 Valid Sudoku Medium array hash-table matrix
+37 Sudoku Solver Hard array hash-table backtracking matrix
+38 Count and Say Medium string
+39 Combination Sum Medium array backtracking
+40 Combination Sum II Medium array backtracking
+41 First Missing Positive Hard array hash-table
+42 Trapping Rain Water Hard array two-pointers dynamic-programming stack monotonic-stack
+43 Multiply Strings Medium math string simulation
+44 Wildcard Matching Hard string dynamic-programming greedy recursion
+45 Jump Game II Medium array dynamic-programming greedy
+46 Permutations Medium array backtracking
+47 Permutations II Medium array backtracking
+48 Rotate Image Medium array math matrix
+49 Group Anagrams Medium array hash-table string sorting
+50 Pow(x, n) Medium math recursion
+51 N-Queens Hard array backtracking
+52 N-Queens II Hard backtracking
+53 Maximum Subarray Medium array divide-and-conquer dynamic-programming
+54 Spiral Matrix Medium array matrix simulation
+55 Jump Game Medium array dynamic-programming greedy
+56 Merge Intervals Medium array sorting
+57 Insert Interval Medium array
+58 Length of Last Word Easy string
+59 Spiral Matrix II Medium array matrix simulation
+60 Permutation Sequence Hard math recursion
+61 Rotate List Medium linked-list two-pointers
+62 Unique Paths Medium math dynamic-programming combinatorics
+63 Unique Paths II Medium array dynamic-programming matrix
+64 Minimum Path Sum Medium array dynamic-programming matrix
+65 Valid Number Hard string
+66 Plus One Easy array math
+67 Add Binary Easy math string bit-manipulation simulation
+68 Text Justification Hard array string simulation
+69 Sqrt(x) Easy math binary-search
+70 Climbing Stairs Easy math dynamic-programming memoization
+71 Simplify Path Medium string stack
+72 Edit Distance Hard string dynamic-programming
+73 Set Matrix Zeroes Medium array hash-table matrix
+74 Search a 2D Matrix Medium array binary-search matrix
+75 Sort Colors Medium array two-pointers sorting
+76 Minimum Window Substring Hard hash-table string sliding-window
+77 Combinations Medium backtracking
+78 Subsets Medium array backtracking bit-manipulation
+79 Word Search Medium array backtracking matrix
+80 Remove Duplicates from Sorted Array II Medium array two-pointers
+81 Search in Rotated Sorted Array II Medium array binary-search
+82 Remove Duplicates from Sorted List II Medium linked-list two-pointers
+83 Remove Duplicates from Sorted List Easy linked-list
+84 Largest Rectangle in Histogram Hard array stack monotonic-stack
+85 Maximal Rectangle Hard array dynamic-programming stack matrix monotonic-stack
+86 Partition List Medium linked-list two-pointers
+87 Scramble String Hard string dynamic-programming
+88 Merge Sorted Array Easy array two-pointers sorting
+89 Gray Code Medium math backtracking bit-manipulation
+90 Subsets II Medium array backtracking bit-manipulation
+91 Decode Ways Medium string dynamic-programming
+92 Reverse Linked List II Medium linked-list
+93 Restore IP Addresses Medium string backtracking
+94 Binary Tree Inorder Traversal Easy stack tree depth-first-search binary-tree
+95 Unique Binary Search Trees II Medium dynamic-programming backtracking tree binary-search-tree binary-tree
+96 Unique Binary Search Trees Medium math dynamic-programming tree binary-search-tree binary-tree
+97 Interleaving String Medium string dynamic-programming
+98 Validate Binary Search Tree Medium tree depth-first-search binary-search-tree binary-tree
+99 Recover Binary Search Tree Medium tree depth-first-search binary-search-tree binary-tree
+100 Same Tree Easy tree depth-first-search breadth-first-search binary-tree
+101 Symmetric Tree Easy tree depth-first-search breadth-first-search binary-tree
+102 Binary Tree Level Order Traversal Medium tree breadth-first-search binary-tree
+103 Binary Tree Zigzag Level Order Traversal Medium tree breadth-first-search binary-tree
+104 Maximum Depth of Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+105 Construct Binary Tree from Preorder and Inorder Traversal Medium array hash-table divide-and-conquer tree binary-tree
+106 Construct Binary Tree from Inorder and Postorder Traversal Medium array hash-table divide-and-conquer tree binary-tree
+107 Binary Tree Level Order Traversal II Medium tree breadth-first-search binary-tree
+108 Convert Sorted Array to Binary Search Tree Easy array divide-and-conquer tree binary-search-tree binary-tree
+109 Convert Sorted List to Binary Search Tree Medium linked-list divide-and-conquer tree binary-search-tree binary-tree
+110 Balanced Binary Tree Easy tree depth-first-search binary-tree
+111 Minimum Depth of Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+112 Path Sum Easy tree depth-first-search breadth-first-search binary-tree
+113 Path Sum II Medium backtracking tree depth-first-search binary-tree
+114 Flatten Binary Tree to Linked List Medium linked-list stack tree depth-first-search binary-tree
+115 Distinct Subsequences Hard string dynamic-programming
+116 Populating Next Right Pointers in Each Node Medium linked-list tree depth-first-search breadth-first-search binary-tree
+117 Populating Next Right Pointers in Each Node II Medium linked-list tree depth-first-search breadth-first-search binary-tree
+118 Pascal's Triangle Easy array dynamic-programming
+119 Pascal's Triangle II Easy array dynamic-programming
+120 Triangle Medium array dynamic-programming
+121 Best Time to Buy and Sell Stock Easy array dynamic-programming
+122 Best Time to Buy and Sell Stock II Medium array dynamic-programming greedy
+123 Best Time to Buy and Sell Stock III Hard array dynamic-programming
+124 Binary Tree Maximum Path Sum Hard dynamic-programming tree depth-first-search binary-tree
+125 Valid Palindrome Easy two-pointers string
+126 Word Ladder II Hard hash-table string backtracking breadth-first-search
+127 Word Ladder Hard hash-table string breadth-first-search
+128 Longest Consecutive Sequence Medium array hash-table union-find
+129 Sum Root to Leaf Numbers Medium tree depth-first-search binary-tree
+130 Surrounded Regions Medium array depth-first-search breadth-first-search union-find matrix
+131 Palindrome Partitioning Medium string dynamic-programming backtracking
+132 Palindrome Partitioning II Hard string dynamic-programming
+133 Clone Graph Medium hash-table depth-first-search breadth-first-search graph
+134 Gas Station Medium array greedy
+135 Candy Hard array greedy
+136 Single Number Easy array bit-manipulation
+137 Single Number II Medium array bit-manipulation
+138 Copy List with Random Pointer Medium hash-table linked-list
+139 Word Break Medium array hash-table string dynamic-programming trie memoization
+140 Word Break II Hard array hash-table string dynamic-programming backtracking trie memoization
+141 Linked List Cycle Easy hash-table linked-list two-pointers
+142 Linked List Cycle II Medium hash-table linked-list two-pointers
+143 Reorder List Medium linked-list two-pointers stack recursion
+144 Binary Tree Preorder Traversal Easy stack tree depth-first-search binary-tree
+145 Binary Tree Postorder Traversal Easy stack tree depth-first-search binary-tree
+146 LRU Cache Medium hash-table linked-list design doubly-linked-list
+147 Insertion Sort List Medium linked-list sorting
+148 Sort List Medium linked-list two-pointers divide-and-conquer sorting merge-sort
+149 Max Points on a Line Hard array hash-table math geometry
+150 Evaluate Reverse Polish Notation Medium array math stack
+151 Reverse Words in a String Medium two-pointers string
+152 Maximum Product Subarray Medium array dynamic-programming
+153 Find Minimum in Rotated Sorted Array Medium array binary-search
+154 Find Minimum in Rotated Sorted Array II Hard array binary-search
+155 Min Stack Medium stack design
+160 Intersection of Two Linked Lists Easy hash-table linked-list two-pointers
+162 Find Peak Element Medium array binary-search
+164 Maximum Gap Hard array sorting bucket-sort radix-sort
+165 Compare Version Numbers Medium two-pointers string
+166 Fraction to Recurring Decimal Medium hash-table math string
+167 Two Sum II - Input Array Is Sorted Medium array two-pointers binary-search
+168 Excel Sheet Column Title Easy math string
+169 Majority Element Easy array hash-table divide-and-conquer sorting counting
+171 Excel Sheet Column Number Easy math string
+172 Factorial Trailing Zeroes Medium math
+173 Binary Search Tree Iterator Medium stack tree design binary-search-tree binary-tree iterator
+174 Dungeon Game Hard array dynamic-programming matrix
+175 Combine Two Tables Easy database
+176 Second Highest Salary Medium database
+177 Nth Highest Salary Medium database
+178 Rank Scores Medium database
+179 Largest Number Medium array string greedy sorting
+180 Consecutive Numbers Medium database
+181 Employees Earning More Than Their Managers Easy database
+182 Duplicate Emails Easy database
+183 Customers Who Never Order Easy database
+184 Department Highest Salary Medium database
+185 Department Top Three Salaries Hard database
+187 Repeated DNA Sequences Medium hash-table string bit-manipulation sliding-window rolling-hash hash-function
+188 Best Time to Buy and Sell Stock IV Hard array dynamic-programming
+189 Rotate Array Medium array math two-pointers
+190 Reverse Bits Easy divide-and-conquer bit-manipulation
+191 Number of 1 Bits Easy divide-and-conquer bit-manipulation
+192 Word Frequency Medium shell
+193 Valid Phone Numbers Easy shell
+194 Transpose File Medium shell
+195 Tenth Line Easy shell
+196 Delete Duplicate Emails Easy database
+197 Rising Temperature Easy database
+198 House Robber Medium array dynamic-programming
+199 Binary Tree Right Side View Medium tree depth-first-search breadth-first-search binary-tree
+200 Number of Islands Medium array depth-first-search breadth-first-search union-find matrix
+201 Bitwise AND of Numbers Range Medium bit-manipulation
+202 Happy Number Easy hash-table math two-pointers
+203 Remove Linked List Elements Easy linked-list recursion
+204 Count Primes Medium array math enumeration number-theory
+205 Isomorphic Strings Easy hash-table string
+206 Reverse Linked List Easy linked-list recursion
+207 Course Schedule Medium depth-first-search breadth-first-search graph topological-sort
+208 Implement Trie (Prefix Tree) Medium hash-table string design trie
+209 Minimum Size Subarray Sum Medium array binary-search sliding-window prefix-sum
+210 Course Schedule II Medium depth-first-search breadth-first-search graph topological-sort
+211 Design Add and Search Words Data Structure Medium string depth-first-search design trie
+212 Word Search II Hard array string backtracking trie matrix
+213 House Robber II Medium array dynamic-programming
+214 Shortest Palindrome Hard string rolling-hash string-matching hash-function
+215 Kth Largest Element in an Array Medium array divide-and-conquer sorting heap-priority-queue quickselect
+216 Combination Sum III Medium array backtracking
+217 Contains Duplicate Easy array hash-table sorting
+218 The Skyline Problem Hard array divide-and-conquer binary-indexed-tree segment-tree line-sweep heap-priority-queue ordered-set
+219 Contains Duplicate II Easy array hash-table sliding-window
+220 Contains Duplicate III Hard array sliding-window sorting bucket-sort ordered-set
+221 Maximal Square Medium array dynamic-programming matrix
+222 Count Complete Tree Nodes Medium binary-search tree depth-first-search binary-tree
+223 Rectangle Area Medium math geometry
+224 Basic Calculator Hard math string stack recursion
+225 Implement Stack using Queues Easy stack design queue
+226 Invert Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+227 Basic Calculator II Medium math string stack
+228 Summary Ranges Easy array
+229 Majority Element II Medium array hash-table sorting counting
+230 Kth Smallest Element in a BST Medium tree depth-first-search binary-search-tree binary-tree
+231 Power of Two Easy math bit-manipulation recursion
+232 Implement Queue using Stacks Easy stack design queue
+233 Number of Digit One Hard math dynamic-programming recursion
+234 Palindrome Linked List Easy linked-list two-pointers stack recursion
+235 Lowest Common Ancestor of a Binary Search Tree Medium tree depth-first-search binary-search-tree binary-tree
+236 Lowest Common Ancestor of a Binary Tree Medium tree depth-first-search binary-tree
+237 Delete Node in a Linked List Medium linked-list
+238 Product of Array Except Self Medium array prefix-sum
+239 Sliding Window Maximum Hard array queue sliding-window heap-priority-queue monotonic-queue
+240 Search a 2D Matrix II Medium array binary-search divide-and-conquer matrix
+241 Different Ways to Add Parentheses Medium math string dynamic-programming recursion memoization
+242 Valid Anagram Easy hash-table string sorting
+257 Binary Tree Paths Easy string backtracking tree depth-first-search binary-tree
+258 Add Digits Easy math simulation number-theory
+260 Single Number III Medium array bit-manipulation
+262 Trips and Users Hard database
+263 Ugly Number Easy math
+264 Ugly Number II Medium hash-table math dynamic-programming heap-priority-queue
+268 Missing Number Easy array hash-table math binary-search bit-manipulation sorting
+273 Integer to English Words Hard math string recursion
+274 H-Index Medium array sorting counting-sort
+275 H-Index II Medium array binary-search
+278 First Bad Version Easy binary-search interactive
+279 Perfect Squares Medium math dynamic-programming breadth-first-search
+282 Expression Add Operators Hard math string backtracking
+283 Move Zeroes Easy array two-pointers
+284 Peeking Iterator Medium array design iterator
+287 Find the Duplicate Number Medium array two-pointers binary-search bit-manipulation
+289 Game of Life Medium array matrix simulation
+290 Word Pattern Easy hash-table string
+292 Nim Game Easy math brainteaser game-theory
+295 Find Median from Data Stream Hard two-pointers design sorting heap-priority-queue data-stream
+297 Serialize and Deserialize Binary Tree Hard string tree depth-first-search breadth-first-search design binary-tree
+299 Bulls and Cows Medium hash-table string counting
+300 Longest Increasing Subsequence Medium array binary-search dynamic-programming
+301 Remove Invalid Parentheses Hard string backtracking breadth-first-search
+303 Range Sum Query - Immutable Easy array design prefix-sum
+304 Range Sum Query 2D - Immutable Medium array design matrix prefix-sum
+306 Additive Number Medium string backtracking
+307 Range Sum Query - Mutable Medium array design binary-indexed-tree segment-tree
+309 Best Time to Buy and Sell Stock with Cooldown Medium array dynamic-programming
+310 Minimum Height Trees Medium depth-first-search breadth-first-search graph topological-sort
+312 Burst Balloons Hard array dynamic-programming
+313 Super Ugly Number Medium array math dynamic-programming
+315 Count of Smaller Numbers After Self Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+316 Remove Duplicate Letters Medium string stack greedy monotonic-stack
+318 Maximum Product of Word Lengths Medium array string bit-manipulation
+319 Bulb Switcher Medium math brainteaser
+321 Create Maximum Number Hard stack greedy monotonic-stack
+322 Coin Change Medium array dynamic-programming breadth-first-search
+324 Wiggle Sort II Medium array divide-and-conquer sorting quickselect
+326 Power of Three Easy math recursion
+327 Count of Range Sum Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+328 Odd Even Linked List Medium linked-list
+329 Longest Increasing Path in a Matrix Hard array dynamic-programming depth-first-search breadth-first-search graph topological-sort memoization matrix
+330 Patching Array Hard array greedy
+331 Verify Preorder Serialization of a Binary Tree Medium string stack tree binary-tree
+332 Reconstruct Itinerary Hard depth-first-search graph eulerian-circuit
+334 Increasing Triplet Subsequence Medium array greedy
+335 Self Crossing Hard array math geometry
+336 Palindrome Pairs Hard array hash-table string trie
+337 House Robber III Medium dynamic-programming tree depth-first-search binary-tree
+338 Counting Bits Easy dynamic-programming bit-manipulation
+341 Flatten Nested List Iterator Medium stack tree depth-first-search design queue iterator
+342 Power of Four Easy math bit-manipulation recursion
+343 Integer Break Medium math dynamic-programming
+344 Reverse String Easy two-pointers string
+345 Reverse Vowels of a String Easy two-pointers string
+347 Top K Frequent Elements Medium array hash-table divide-and-conquer sorting heap-priority-queue bucket-sort counting quickselect
+349 Intersection of Two Arrays Easy array hash-table two-pointers binary-search sorting
+350 Intersection of Two Arrays II Easy array hash-table two-pointers binary-search sorting
+352 Data Stream as Disjoint Intervals Hard binary-search design ordered-set
+354 Russian Doll Envelopes Hard array binary-search dynamic-programming sorting
+355 Design Twitter Medium hash-table linked-list design heap-priority-queue
+357 Count Numbers with Unique Digits Medium math dynamic-programming backtracking
+363 Max Sum of Rectangle No Larger Than K Hard array binary-search matrix prefix-sum ordered-set
+365 Water and Jug Problem Medium math depth-first-search breadth-first-search
+367 Valid Perfect Square Easy math binary-search
+368 Largest Divisible Subset Medium array math dynamic-programming sorting
+371 Sum of Two Integers Medium math bit-manipulation
+372 Super Pow Medium math divide-and-conquer
+373 Find K Pairs with Smallest Sums Medium array heap-priority-queue
+374 Guess Number Higher or Lower Easy binary-search interactive
+375 Guess Number Higher or Lower II Medium math dynamic-programming game-theory
+376 Wiggle Subsequence Medium array dynamic-programming greedy
+377 Combination Sum IV Medium array dynamic-programming
+378 Kth Smallest Element in a Sorted Matrix Medium array binary-search sorting heap-priority-queue matrix
+380 Insert Delete GetRandom O(1) Medium array hash-table math design randomized
+381 Insert Delete GetRandom O(1) - Duplicates allowed Hard array hash-table math design randomized
+382 Linked List Random Node Medium linked-list math reservoir-sampling randomized
+383 Ransom Note Easy hash-table string counting
+384 Shuffle an Array Medium array math randomized
+385 Mini Parser Medium string stack depth-first-search
+386 Lexicographical Numbers Medium depth-first-search trie
+387 First Unique Character in a String Easy hash-table string queue counting
+388 Longest Absolute File Path Medium string stack depth-first-search
+389 Find the Difference Easy hash-table string bit-manipulation sorting
+390 Elimination Game Medium math recursion
+391 Perfect Rectangle Hard array line-sweep
+392 Is Subsequence Easy two-pointers string dynamic-programming
+393 UTF-8 Validation Medium array bit-manipulation
+394 Decode String Medium string stack recursion
+395 Longest Substring with At Least K Repeating Characters Medium hash-table string divide-and-conquer sliding-window
+396 Rotate Function Medium array math dynamic-programming
+397 Integer Replacement Medium dynamic-programming greedy bit-manipulation memoization
+398 Random Pick Index Medium hash-table math reservoir-sampling randomized
+399 Evaluate Division Medium array depth-first-search breadth-first-search union-find graph shortest-path
+400 Nth Digit Medium math binary-search
+401 Binary Watch Easy backtracking bit-manipulation
+402 Remove K Digits Medium string stack greedy monotonic-stack
+403 Frog Jump Hard array dynamic-programming
+404 Sum of Left Leaves Easy tree depth-first-search breadth-first-search binary-tree
+405 Convert a Number to Hexadecimal Easy math bit-manipulation
+406 Queue Reconstruction by Height Medium array greedy binary-indexed-tree segment-tree sorting
+407 Trapping Rain Water II Hard array breadth-first-search heap-priority-queue matrix
+409 Longest Palindrome Easy hash-table string greedy
+410 Split Array Largest Sum Hard array binary-search dynamic-programming greedy prefix-sum
+412 Fizz Buzz Easy math string simulation
+413 Arithmetic Slices Medium array dynamic-programming
+414 Third Maximum Number Easy array sorting
+415 Add Strings Easy math string simulation
+416 Partition Equal Subset Sum Medium array dynamic-programming
+417 Pacific Atlantic Water Flow Medium array depth-first-search breadth-first-search matrix
+419 Battleships in a Board Medium array depth-first-search matrix
+420 Strong Password Checker Hard string greedy heap-priority-queue
+421 Maximum XOR of Two Numbers in an Array Medium array hash-table bit-manipulation trie
+423 Reconstruct Original Digits from English Medium hash-table math string
+424 Longest Repeating Character Replacement Medium hash-table string sliding-window
+427 Construct Quad Tree Medium array divide-and-conquer tree matrix
+429 N-ary Tree Level Order Traversal Medium tree breadth-first-search
+430 Flatten a Multilevel Doubly Linked List Medium linked-list depth-first-search doubly-linked-list
+432 All O`one Data Structure Hard hash-table linked-list design doubly-linked-list
+433 Minimum Genetic Mutation Medium hash-table string breadth-first-search
+434 Number of Segments in a String Easy string
+435 Non-overlapping Intervals Medium array dynamic-programming greedy sorting
+436 Find Right Interval Medium array binary-search sorting
+437 Path Sum III Medium tree depth-first-search binary-tree
+438 Find All Anagrams in a String Medium hash-table string sliding-window
+440 K-th Smallest in Lexicographical Order Hard trie
+441 Arranging Coins Easy math binary-search
+442 Find All Duplicates in an Array Medium array hash-table
+443 String Compression Medium two-pointers string
+445 Add Two Numbers II Medium linked-list math stack
+446 Arithmetic Slices II - Subsequence Hard array dynamic-programming
+447 Number of Boomerangs Medium array hash-table math
+448 Find All Numbers Disappeared in an Array Easy array hash-table
+449 Serialize and Deserialize BST Medium string tree depth-first-search breadth-first-search design binary-search-tree binary-tree
+450 Delete Node in a BST Medium tree binary-search-tree binary-tree
+451 Sort Characters By Frequency Medium hash-table string sorting heap-priority-queue bucket-sort counting
+452 Minimum Number of Arrows to Burst Balloons Medium array greedy sorting
+453 Minimum Moves to Equal Array Elements Medium array math
+454 4Sum II Medium array hash-table
+455 Assign Cookies Easy array two-pointers greedy sorting
+456 132 Pattern Medium array binary-search stack monotonic-stack ordered-set
+457 Circular Array Loop Medium array hash-table two-pointers
+458 Poor Pigs Hard math dynamic-programming combinatorics
+459 Repeated Substring Pattern Easy string string-matching
+460 LFU Cache Hard hash-table linked-list design doubly-linked-list
+461 Hamming Distance Easy bit-manipulation
+462 Minimum Moves to Equal Array Elements II Medium array math sorting
+463 Island Perimeter Easy array depth-first-search breadth-first-search matrix
+464 Can I Win Medium math dynamic-programming bit-manipulation memoization game-theory bitmask
+466 Count The Repetitions Hard string dynamic-programming
+467 Unique Substrings in Wraparound String Medium string dynamic-programming
+468 Validate IP Address Medium string
+470 Implement Rand10() Using Rand7() Medium math rejection-sampling randomized probability-and-statistics
+472 Concatenated Words Hard array string dynamic-programming depth-first-search trie
+473 Matchsticks to Square Medium array dynamic-programming backtracking bit-manipulation bitmask
+474 Ones and Zeroes Medium array string dynamic-programming
+475 Heaters Medium array two-pointers binary-search sorting
+476 Number Complement Easy bit-manipulation
+477 Total Hamming Distance Medium array math bit-manipulation
+478 Generate Random Point in a Circle Medium math geometry rejection-sampling randomized
+479 Largest Palindrome Product Hard math
+480 Sliding Window Median Hard array hash-table sliding-window heap-priority-queue
+481 Magical String Medium two-pointers string
+482 License Key Formatting Easy string
+483 Smallest Good Base Hard math binary-search
+485 Max Consecutive Ones Easy array
+486 Predict the Winner Medium array math dynamic-programming recursion game-theory
+488 Zuma Game Hard string dynamic-programming breadth-first-search memoization
+491 Non-decreasing Subsequences Medium array hash-table backtracking bit-manipulation
+492 Construct the Rectangle Easy math
+493 Reverse Pairs Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+494 Target Sum Medium array dynamic-programming backtracking
+495 Teemo Attacking Easy array simulation
+496 Next Greater Element I Easy array hash-table stack monotonic-stack
+497 Random Point in Non-overlapping Rectangles Medium array math binary-search reservoir-sampling prefix-sum ordered-set randomized
+498 Diagonal Traverse Medium array matrix simulation
+500 Keyboard Row Easy array hash-table string
+501 Find Mode in Binary Search Tree Easy tree depth-first-search binary-search-tree binary-tree
+502 IPO Hard array greedy sorting heap-priority-queue
+503 Next Greater Element II Medium array stack monotonic-stack
+504 Base 7 Easy math
+506 Relative Ranks Easy array sorting heap-priority-queue
+507 Perfect Number Easy math
+508 Most Frequent Subtree Sum Medium hash-table tree depth-first-search binary-tree
+509 Fibonacci Number Easy math dynamic-programming recursion memoization
+511 Game Play Analysis I Easy database
+513 Find Bottom Left Tree Value Medium tree depth-first-search breadth-first-search binary-tree
+514 Freedom Trail Hard string dynamic-programming depth-first-search breadth-first-search
+515 Find Largest Value in Each Tree Row Medium tree depth-first-search breadth-first-search binary-tree
+516 Longest Palindromic Subsequence Medium string dynamic-programming
+517 Super Washing Machines Hard array greedy
+518 Coin Change II Medium array dynamic-programming
+519 Random Flip Matrix Medium hash-table math reservoir-sampling randomized
+520 Detect Capital Easy string
+521 Longest Uncommon Subsequence I Easy string
+522 Longest Uncommon Subsequence II Medium array hash-table two-pointers string sorting
+523 Continuous Subarray Sum Medium array hash-table math prefix-sum
+524 Longest Word in Dictionary through Deleting Medium array two-pointers string sorting
+525 Contiguous Array Medium array hash-table prefix-sum
+526 Beautiful Arrangement Medium array dynamic-programming backtracking bit-manipulation bitmask
+528 Random Pick with Weight Medium array math binary-search prefix-sum randomized
+529 Minesweeper Medium array depth-first-search breadth-first-search matrix
+530 Minimum Absolute Difference in BST Easy tree depth-first-search breadth-first-search binary-search-tree binary-tree
+532 K-diff Pairs in an Array Medium array hash-table two-pointers binary-search sorting
+535 Encode and Decode TinyURL Medium hash-table string design hash-function
+537 Complex Number Multiplication Medium math string simulation
+538 Convert BST to Greater Tree Medium tree depth-first-search binary-search-tree binary-tree
+539 Minimum Time Difference Medium array math string sorting
+540 Single Element in a Sorted Array Medium array binary-search
+541 Reverse String II Easy two-pointers string
+542 01 Matrix Medium array dynamic-programming breadth-first-search matrix
+543 Diameter of Binary Tree Easy tree depth-first-search binary-tree
+546 Remove Boxes Hard array dynamic-programming memoization
+547 Number of Provinces Medium depth-first-search breadth-first-search union-find graph
+550 Game Play Analysis IV Medium database
+551 Student Attendance Record I Easy string
+552 Student Attendance Record II Hard dynamic-programming
+553 Optimal Division Medium array math dynamic-programming
+554 Brick Wall Medium array hash-table
+556 Next Greater Element III Medium math two-pointers string
+557 Reverse Words in a String III Easy two-pointers string
+558 Logical OR of Two Binary Grids Represented as Quad-Trees Medium divide-and-conquer tree
+559 Maximum Depth of N-ary Tree Easy tree depth-first-search breadth-first-search
+560 Subarray Sum Equals K Medium array hash-table prefix-sum
+561 Array Partition Easy array greedy sorting counting-sort
+563 Binary Tree Tilt Easy tree depth-first-search binary-tree
+564 Find the Closest Palindrome Hard math string
+565 Array Nesting Medium array depth-first-search
+566 Reshape the Matrix Easy array matrix simulation
+567 Permutation in String Medium hash-table two-pointers string sliding-window
+570 Managers with at Least 5 Direct Reports Medium database
+572 Subtree of Another Tree Easy tree depth-first-search string-matching binary-tree hash-function
+575 Distribute Candies Easy array hash-table
+576 Out of Boundary Paths Medium dynamic-programming
+577 Employee Bonus Easy database
+581 Shortest Unsorted Continuous Subarray Medium array two-pointers stack greedy sorting monotonic-stack
+583 Delete Operation for Two Strings Medium string dynamic-programming
+584 Find Customer Referee Easy database
+585 Investments in 2016 Medium database
+586 Customer Placing the Largest Number of Orders Easy database
+587 Erect the Fence Hard array math geometry
+589 N-ary Tree Preorder Traversal Easy stack tree depth-first-search
+590 N-ary Tree Postorder Traversal Easy stack tree depth-first-search
+591 Tag Validator Hard string stack
+592 Fraction Addition and Subtraction Medium math string simulation
+593 Valid Square Medium math geometry
+594 Longest Harmonious Subsequence Easy array hash-table sorting
+595 Big Countries Easy database
+596 Classes More Than 5 Students Easy database
+598 Range Addition II Easy array math
+599 Minimum Index Sum of Two Lists Easy array hash-table string
+600 Non-negative Integers without Consecutive Ones Hard dynamic-programming
+601 Human Traffic of Stadium Hard database
+602 Friend Requests II: Who Has the Most Friends Medium database
+605 Can Place Flowers Easy array greedy
+606 Construct String from Binary Tree Easy string tree depth-first-search binary-tree
+607 Sales Person Easy database
+608 Tree Node Medium database
+609 Find Duplicate File in System Medium array hash-table string
+610 Triangle Judgement Easy database
+611 Valid Triangle Number Medium array two-pointers binary-search greedy sorting
+617 Merge Two Binary Trees Easy tree depth-first-search breadth-first-search binary-tree
+619 Biggest Single Number Easy database
+620 Not Boring Movies Easy database
+621 Task Scheduler Medium array hash-table greedy sorting heap-priority-queue counting
+622 Design Circular Queue Medium array linked-list design queue
+623 Add One Row to Tree Medium tree depth-first-search breadth-first-search binary-tree
+626 Exchange Seats Medium database
+627 Swap Salary Easy database
+628 Maximum Product of Three Numbers Easy array math sorting
+629 K Inverse Pairs Array Hard dynamic-programming
+630 Course Schedule III Hard array greedy heap-priority-queue
+632 Smallest Range Covering Elements from K Lists Hard array hash-table greedy sliding-window sorting heap-priority-queue
+633 Sum of Square Numbers Medium math two-pointers binary-search
+636 Exclusive Time of Functions Medium array stack
+637 Average of Levels in Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+638 Shopping Offers Medium array dynamic-programming backtracking bit-manipulation memoization bitmask
+639 Decode Ways II Hard string dynamic-programming
+640 Solve the Equation Medium math string simulation
+641 Design Circular Deque Medium array linked-list design queue
+643 Maximum Average Subarray I Easy array sliding-window
+645 Set Mismatch Easy array hash-table bit-manipulation sorting
+646 Maximum Length of Pair Chain Medium array dynamic-programming greedy sorting
+647 Palindromic Substrings Medium string dynamic-programming
+648 Replace Words Medium array hash-table string trie
+649 Dota2 Senate Medium string greedy queue
+650 2 Keys Keyboard Medium math dynamic-programming
+652 Find Duplicate Subtrees Medium hash-table tree depth-first-search binary-tree
+653 Two Sum IV - Input is a BST Easy hash-table two-pointers tree depth-first-search breadth-first-search binary-search-tree binary-tree
+654 Maximum Binary Tree Medium array divide-and-conquer stack tree monotonic-stack binary-tree
+655 Print Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+657 Robot Return to Origin Easy string simulation
+658 Find K Closest Elements Medium array two-pointers binary-search sliding-window sorting heap-priority-queue
+659 Split Array into Consecutive Subsequences Medium array hash-table greedy heap-priority-queue
+661 Image Smoother Easy array matrix
+662 Maximum Width of Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+664 Strange Printer Hard string dynamic-programming
+665 Non-decreasing Array Medium array
+667 Beautiful Arrangement II Medium array math
+668 Kth Smallest Number in Multiplication Table Hard math binary-search
+669 Trim a Binary Search Tree Medium tree depth-first-search binary-search-tree binary-tree
+670 Maximum Swap Medium math greedy
+671 Second Minimum Node In a Binary Tree Easy tree depth-first-search binary-tree
+672 Bulb Switcher II Medium math bit-manipulation depth-first-search breadth-first-search
+673 Number of Longest Increasing Subsequence Medium array dynamic-programming binary-indexed-tree segment-tree
+674 Longest Continuous Increasing Subsequence Easy array
+675 Cut Off Trees for Golf Event Hard array breadth-first-search heap-priority-queue matrix
+676 Implement Magic Dictionary Medium hash-table string design trie
+677 Map Sum Pairs Medium hash-table string design trie
+678 Valid Parenthesis String Medium string dynamic-programming stack greedy
+679 24 Game Hard array math backtracking
+680 Valid Palindrome II Easy two-pointers string greedy
+682 Baseball Game Easy array stack simulation
+684 Redundant Connection Medium depth-first-search breadth-first-search union-find graph
+685 Redundant Connection II Hard depth-first-search breadth-first-search union-find graph
+686 Repeated String Match Medium string string-matching
+687 Longest Univalue Path Medium tree depth-first-search binary-tree
+688 Knight Probability in Chessboard Medium dynamic-programming
+689 Maximum Sum of 3 Non-Overlapping Subarrays Hard array dynamic-programming
+690 Employee Importance Medium hash-table depth-first-search breadth-first-search
+691 Stickers to Spell Word Hard array string dynamic-programming backtracking bit-manipulation bitmask
+692 Top K Frequent Words Medium hash-table string trie sorting heap-priority-queue bucket-sort counting
+693 Binary Number with Alternating Bits Easy bit-manipulation
+695 Max Area of Island Medium array depth-first-search breadth-first-search union-find matrix
+696 Count Binary Substrings Easy two-pointers string
+697 Degree of an Array Easy array hash-table
+698 Partition to K Equal Sum Subsets Medium array dynamic-programming backtracking bit-manipulation memoization bitmask
+699 Falling Squares Hard array segment-tree ordered-set
+700 Search in a Binary Search Tree Easy tree binary-search-tree binary-tree
+701 Insert into a Binary Search Tree Medium tree binary-search-tree binary-tree
+703 Kth Largest Element in a Stream Easy tree design binary-search-tree heap-priority-queue binary-tree data-stream
+704 Binary Search Easy array binary-search
+705 Design HashSet Easy array hash-table linked-list design hash-function
+706 Design HashMap Easy array hash-table linked-list design hash-function
+707 Design Linked List Medium linked-list design
+709 To Lower Case Easy string
+710 Random Pick with Blacklist Hard array hash-table math binary-search sorting randomized
+712 Minimum ASCII Delete Sum for Two Strings Medium string dynamic-programming
+713 Subarray Product Less Than K Medium array sliding-window
+714 Best Time to Buy and Sell Stock with Transaction Fee Medium array dynamic-programming greedy
+715 Range Module Hard design segment-tree ordered-set
+717 1-bit and 2-bit Characters Easy array
+718 Maximum Length of Repeated Subarray Medium array binary-search dynamic-programming sliding-window rolling-hash hash-function
+719 Find K-th Smallest Pair Distance Hard array two-pointers binary-search sorting
+720 Longest Word in Dictionary Medium array hash-table string trie sorting
+721 Accounts Merge Medium array string depth-first-search breadth-first-search union-find
+722 Remove Comments Medium array string
+724 Find Pivot Index Easy array prefix-sum
+725 Split Linked List in Parts Medium linked-list
+726 Number of Atoms Hard hash-table string stack sorting
+728 Self Dividing Numbers Easy math
+729 My Calendar I Medium binary-search design segment-tree ordered-set
+730 Count Different Palindromic Subsequences Hard string dynamic-programming
+731 My Calendar II Medium binary-search design segment-tree ordered-set
+732 My Calendar III Hard binary-search design segment-tree ordered-set
+733 Flood Fill Easy array depth-first-search breadth-first-search matrix
+735 Asteroid Collision Medium array stack
+736 Parse Lisp Expression Hard hash-table string stack recursion
+738 Monotone Increasing Digits Medium math greedy
+739 Daily Temperatures Medium array stack monotonic-stack
+740 Delete and Earn Medium array hash-table dynamic-programming
+741 Cherry Pickup Hard array dynamic-programming matrix
+743 Network Delay Time Medium depth-first-search breadth-first-search graph heap-priority-queue shortest-path
+744 Find Smallest Letter Greater Than Target Easy array binary-search
+745 Prefix and Suffix Search Hard hash-table string design trie
+746 Min Cost Climbing Stairs Easy array dynamic-programming
+747 Largest Number At Least Twice of Others Easy array sorting
+748 Shortest Completing Word Easy array hash-table string
+749 Contain Virus Hard array depth-first-search breadth-first-search matrix simulation
+752 Open the Lock Medium array hash-table string breadth-first-search
+753 Cracking the Safe Hard depth-first-search graph eulerian-circuit
+754 Reach a Number Medium math binary-search
+756 Pyramid Transition Matrix Medium bit-manipulation depth-first-search breadth-first-search
+757 Set Intersection Size At Least Two Hard array greedy sorting
+761 Special Binary String Hard string recursion
+762 Prime Number of Set Bits in Binary Representation Easy math bit-manipulation
+763 Partition Labels Medium hash-table two-pointers string greedy
+764 Largest Plus Sign Medium array dynamic-programming
+765 Couples Holding Hands Hard greedy depth-first-search breadth-first-search union-find graph
+766 Toeplitz Matrix Easy array matrix
+767 Reorganize String Medium hash-table string greedy sorting heap-priority-queue counting
+768 Max Chunks To Make Sorted II Hard array stack greedy sorting monotonic-stack
+769 Max Chunks To Make Sorted Medium array stack greedy sorting monotonic-stack
+770 Basic Calculator IV Hard hash-table math string stack recursion
+771 Jewels and Stones Easy hash-table string
+773 Sliding Puzzle Hard array breadth-first-search matrix
+775 Global and Local Inversions Medium array math
+777 Swap Adjacent in LR String Medium two-pointers string
+778 Swim in Rising Water Hard array binary-search depth-first-search breadth-first-search union-find heap-priority-queue matrix
+779 K-th Symbol in Grammar Medium math bit-manipulation recursion
+780 Reaching Points Hard math
+781 Rabbits in Forest Medium array hash-table math greedy
+782 Transform to Chessboard Hard array math bit-manipulation matrix
+783 Minimum Distance Between BST Nodes Easy tree depth-first-search breadth-first-search binary-search-tree binary-tree
+784 Letter Case Permutation Medium string backtracking bit-manipulation
+785 Is Graph Bipartite? Medium depth-first-search breadth-first-search union-find graph
+786 K-th Smallest Prime Fraction Medium array binary-search sorting heap-priority-queue
+787 Cheapest Flights Within K Stops Medium dynamic-programming depth-first-search breadth-first-search graph heap-priority-queue shortest-path
+788 Rotated Digits Medium math dynamic-programming
+789 Escape The Ghosts Medium array math
+790 Domino and Tromino Tiling Medium dynamic-programming
+791 Custom Sort String Medium hash-table string sorting
+792 Number of Matching Subsequences Medium hash-table string trie sorting
+793 Preimage Size of Factorial Zeroes Function Hard math binary-search
+794 Valid Tic-Tac-Toe State Medium array string
+795 Number of Subarrays with Bounded Maximum Medium array two-pointers
+796 Rotate String Easy string string-matching
+797 All Paths From Source to Target Medium backtracking depth-first-search breadth-first-search graph
+798 Smallest Rotation with Highest Score Hard array prefix-sum
+799 Champagne Tower Medium dynamic-programming
+801 Minimum Swaps To Make Sequences Increasing Hard array dynamic-programming
+802 Find Eventual Safe States Medium depth-first-search breadth-first-search graph topological-sort
+803 Bricks Falling When Hit Hard array union-find matrix
+804 Unique Morse Code Words Easy array hash-table string
+805 Split Array With Same Average Hard array math dynamic-programming bit-manipulation bitmask
+806 Number of Lines To Write String Easy array string
+807 Max Increase to Keep City Skyline Medium array greedy matrix
+808 Soup Servings Medium math dynamic-programming probability-and-statistics
+809 Expressive Words Medium array two-pointers string
+810 Chalkboard XOR Game Hard array math bit-manipulation brainteaser game-theory
+811 Subdomain Visit Count Medium array hash-table string counting
+812 Largest Triangle Area Easy array math geometry
+813 Largest Sum of Averages Medium array dynamic-programming prefix-sum
+814 Binary Tree Pruning Medium tree depth-first-search binary-tree
+815 Bus Routes Hard array hash-table breadth-first-search
+816 Ambiguous Coordinates Medium string backtracking
+817 Linked List Components Medium array hash-table linked-list
+818 Race Car Hard dynamic-programming
+819 Most Common Word Easy hash-table string counting
+820 Short Encoding of Words Medium array hash-table string trie
+821 Shortest Distance to a Character Easy array two-pointers string
+822 Card Flipping Game Medium array hash-table
+823 Binary Trees With Factors Medium array hash-table dynamic-programming
+824 Goat Latin Easy string
+825 Friends Of Appropriate Ages Medium array two-pointers binary-search sorting
+826 Most Profit Assigning Work Medium array two-pointers binary-search greedy sorting
+827 Making A Large Island Hard array depth-first-search breadth-first-search union-find matrix
+828 Count Unique Characters of All Substrings of a Given String Hard hash-table string dynamic-programming
+829 Consecutive Numbers Sum Hard math enumeration
+830 Positions of Large Groups Easy string
+831 Masking Personal Information Medium string
+832 Flipping an Image Easy array two-pointers matrix simulation
+833 Find And Replace in String Medium array string sorting
+834 Sum of Distances in Tree Hard dynamic-programming tree depth-first-search graph
+835 Image Overlap Medium array matrix
+836 Rectangle Overlap Easy math geometry
+837 New 21 Game Medium math dynamic-programming sliding-window probability-and-statistics
+838 Push Dominoes Medium two-pointers string dynamic-programming
+839 Similar String Groups Hard array string depth-first-search breadth-first-search union-find
+840 Magic Squares In Grid Medium array math matrix
+841 Keys and Rooms Medium depth-first-search breadth-first-search graph
+842 Split Array into Fibonacci Sequence Medium string backtracking
+843 Guess the Word Hard array math string interactive game-theory
+844 Backspace String Compare Easy two-pointers string stack simulation
+845 Longest Mountain in Array Medium array two-pointers dynamic-programming enumeration
+846 Hand of Straights Medium array hash-table greedy sorting
+847 Shortest Path Visiting All Nodes Hard dynamic-programming bit-manipulation breadth-first-search graph bitmask
+848 Shifting Letters Medium array string
+849 Maximize Distance to Closest Person Medium array
+850 Rectangle Area II Hard array segment-tree line-sweep ordered-set
+851 Loud and Rich Medium array depth-first-search graph topological-sort
+852 Peak Index in a Mountain Array Medium array binary-search
+853 Car Fleet Medium array stack sorting monotonic-stack
+854 K-Similar Strings Hard string breadth-first-search
+855 Exam Room Medium design heap-priority-queue ordered-set
+856 Score of Parentheses Medium string stack
+857 Minimum Cost to Hire K Workers Hard array greedy sorting heap-priority-queue
+858 Mirror Reflection Medium math geometry number-theory
+859 Buddy Strings Easy hash-table string
+860 Lemonade Change Easy array greedy
+861 Score After Flipping Matrix Medium array greedy bit-manipulation matrix
+862 Shortest Subarray with Sum at Least K Hard array binary-search queue sliding-window heap-priority-queue prefix-sum monotonic-queue
+863 All Nodes Distance K in Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+864 Shortest Path to Get All Keys Hard array bit-manipulation breadth-first-search matrix
+865 Smallest Subtree with all the Deepest Nodes Medium hash-table tree depth-first-search breadth-first-search binary-tree
+866 Prime Palindrome Medium math
+867 Transpose Matrix Easy array matrix simulation
+868 Binary Gap Easy bit-manipulation
+869 Reordered Power of 2 Medium math sorting counting enumeration
+870 Advantage Shuffle Medium array two-pointers greedy sorting
+871 Minimum Number of Refueling Stops Hard array dynamic-programming greedy heap-priority-queue
+872 Leaf-Similar Trees Easy tree depth-first-search binary-tree
+873 Length of Longest Fibonacci Subsequence Medium array hash-table dynamic-programming
+874 Walking Robot Simulation Medium array simulation
+875 Koko Eating Bananas Medium array binary-search
+876 Middle of the Linked List Easy linked-list two-pointers
+877 Stone Game Medium array math dynamic-programming game-theory
+878 Nth Magical Number Hard math binary-search
+879 Profitable Schemes Hard array dynamic-programming
+880 Decoded String at Index Medium string stack
+881 Boats to Save People Medium array two-pointers greedy sorting
+882 Reachable Nodes In Subdivided Graph Hard graph heap-priority-queue shortest-path
+883 Projection Area of 3D Shapes Easy array math geometry matrix
+884 Uncommon Words from Two Sentences Easy hash-table string
+885 Spiral Matrix III Medium array matrix simulation
+886 Possible Bipartition Medium depth-first-search breadth-first-search union-find graph
+887 Super Egg Drop Hard math binary-search dynamic-programming
+888 Fair Candy Swap Easy array hash-table binary-search sorting
+889 Construct Binary Tree from Preorder and Postorder Traversal Medium array hash-table divide-and-conquer tree binary-tree
+890 Find and Replace Pattern Medium array hash-table string
+891 Sum of Subsequence Widths Hard array math sorting
+892 Surface Area of 3D Shapes Easy array math geometry matrix
+893 Groups of Special-Equivalent Strings Medium array hash-table string
+894 All Possible Full Binary Trees Medium dynamic-programming tree recursion memoization binary-tree
+895 Maximum Frequency Stack Hard hash-table stack design ordered-set
+896 Monotonic Array Easy array
+897 Increasing Order Search Tree Easy stack tree depth-first-search binary-search-tree binary-tree
+898 Bitwise ORs of Subarrays Medium array dynamic-programming bit-manipulation
+899 Orderly Queue Hard math string sorting
+900 RLE Iterator Medium array design counting iterator
+901 Online Stock Span Medium stack design monotonic-stack data-stream
+902 Numbers At Most N Given Digit Set Hard array math string binary-search dynamic-programming
+903 Valid Permutations for DI Sequence Hard string dynamic-programming prefix-sum
+904 Fruit Into Baskets Medium array hash-table sliding-window
+905 Sort Array By Parity Easy array two-pointers sorting
+906 Super Palindromes Hard math enumeration
+907 Sum of Subarray Minimums Medium array dynamic-programming stack monotonic-stack
+908 Smallest Range I Easy array math
+909 Snakes and Ladders Medium array breadth-first-search matrix
+910 Smallest Range II Medium array math greedy sorting
+911 Online Election Medium array hash-table binary-search design
+912 Sort an Array Medium array divide-and-conquer sorting heap-priority-queue merge-sort bucket-sort radix-sort counting-sort
+913 Cat and Mouse Hard math dynamic-programming graph topological-sort memoization game-theory
+914 X of a Kind in a Deck of Cards Easy array hash-table math counting number-theory
+915 Partition Array into Disjoint Intervals Medium array
+916 Word Subsets Medium array hash-table string
+917 Reverse Only Letters Easy two-pointers string
+918 Maximum Sum Circular Subarray Medium array divide-and-conquer dynamic-programming queue monotonic-queue
+919 Complete Binary Tree Inserter Medium tree breadth-first-search design binary-tree
+920 Number of Music Playlists Hard math dynamic-programming combinatorics
+921 Minimum Add to Make Parentheses Valid Medium string stack greedy
+922 Sort Array By Parity II Easy array two-pointers sorting
+923 3Sum With Multiplicity Medium array hash-table two-pointers sorting counting
+924 Minimize Malware Spread Hard array depth-first-search breadth-first-search union-find matrix
+925 Long Pressed Name Easy two-pointers string
+926 Flip String to Monotone Increasing Medium string dynamic-programming
+927 Three Equal Parts Hard array math
+928 Minimize Malware Spread II Hard array depth-first-search breadth-first-search union-find matrix
+929 Unique Email Addresses Easy array hash-table string
+930 Binary Subarrays With Sum Medium array hash-table sliding-window prefix-sum
+931 Minimum Falling Path Sum Medium array dynamic-programming matrix
+932 Beautiful Array Medium array math divide-and-conquer
+933 Number of Recent Calls Easy design queue data-stream
+934 Shortest Bridge Medium array depth-first-search breadth-first-search matrix
+935 Knight Dialer Medium dynamic-programming
+936 Stamping The Sequence Hard string stack greedy queue
+937 Reorder Data in Log Files Medium array string sorting
+938 Range Sum of BST Easy tree depth-first-search binary-search-tree binary-tree
+939 Minimum Area Rectangle Medium array hash-table math geometry sorting
+940 Distinct Subsequences II Hard string dynamic-programming
+941 Valid Mountain Array Easy array
+942 DI String Match Easy array two-pointers string greedy
+943 Find the Shortest Superstring Hard array string dynamic-programming bit-manipulation bitmask
+944 Delete Columns to Make Sorted Easy array string
+945 Minimum Increment to Make Array Unique Medium array greedy sorting counting
+946 Validate Stack Sequences Medium array stack simulation
+947 Most Stones Removed with Same Row or Column Medium depth-first-search union-find graph
+948 Bag of Tokens Medium array two-pointers greedy sorting
+949 Largest Time for Given Digits Medium string enumeration
+950 Reveal Cards In Increasing Order Medium array queue sorting simulation
+951 Flip Equivalent Binary Trees Medium tree depth-first-search binary-tree
+952 Largest Component Size by Common Factor Hard array math union-find
+953 Verifying an Alien Dictionary Easy array hash-table string
+954 Array of Doubled Pairs Medium array hash-table greedy sorting
+955 Delete Columns to Make Sorted II Medium array string greedy
+956 Tallest Billboard Hard array dynamic-programming
+957 Prison Cells After N Days Medium array hash-table math bit-manipulation
+958 Check Completeness of a Binary Tree Medium tree breadth-first-search binary-tree
+959 Regions Cut By Slashes Medium depth-first-search breadth-first-search union-find graph
+960 Delete Columns to Make Sorted III Hard array string dynamic-programming
+961 N-Repeated Element in Size 2N Array Easy array hash-table
+962 Maximum Width Ramp Medium array stack monotonic-stack
+963 Minimum Area Rectangle II Medium array math geometry
+964 Least Operators to Express Number Hard math dynamic-programming memoization
+965 Univalued Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+966 Vowel Spellchecker Medium array hash-table string
+967 Numbers With Same Consecutive Differences Medium backtracking breadth-first-search
+968 Binary Tree Cameras Hard dynamic-programming tree depth-first-search binary-tree
+969 Pancake Sorting Medium array two-pointers greedy sorting
+970 Powerful Integers Medium hash-table math
+971 Flip Binary Tree To Match Preorder Traversal Medium tree depth-first-search binary-tree
+972 Equal Rational Numbers Hard math string
+973 K Closest Points to Origin Medium array math divide-and-conquer geometry sorting heap-priority-queue quickselect
+974 Subarray Sums Divisible by K Medium array hash-table prefix-sum
+975 Odd Even Jump Hard array dynamic-programming stack monotonic-stack ordered-set
+976 Largest Perimeter Triangle Easy array math greedy sorting
+977 Squares of a Sorted Array Easy array two-pointers sorting
+978 Longest Turbulent Subarray Medium array dynamic-programming sliding-window
+979 Distribute Coins in Binary Tree Medium tree depth-first-search binary-tree
+980 Unique Paths III Hard array backtracking bit-manipulation matrix
+981 Time Based Key-Value Store Medium hash-table string binary-search design
+982 Triples with Bitwise AND Equal To Zero Hard array hash-table bit-manipulation
+983 Minimum Cost For Tickets Medium array dynamic-programming
+984 String Without AAA or BBB Medium string greedy
+985 Sum of Even Numbers After Queries Medium array simulation
+986 Interval List Intersections Medium array two-pointers
+987 Vertical Order Traversal of a Binary Tree Hard hash-table tree depth-first-search breadth-first-search binary-tree
+988 Smallest String Starting From Leaf Medium string tree depth-first-search binary-tree
+989 Add to Array-Form of Integer Easy array math
+990 Satisfiability of Equality Equations Medium array string union-find graph
+991 Broken Calculator Medium math greedy
+992 Subarrays with K Different Integers Hard array hash-table sliding-window counting
+993 Cousins in Binary Tree Easy tree depth-first-search breadth-first-search binary-tree
+994 Rotting Oranges Medium array breadth-first-search matrix
+995 Minimum Number of K Consecutive Bit Flips Hard array bit-manipulation queue sliding-window prefix-sum
+996 Number of Squareful Arrays Hard array math dynamic-programming backtracking bit-manipulation bitmask
+997 Find the Town Judge Easy array hash-table graph
+998 Maximum Binary Tree II Medium tree binary-tree
+999 Available Captures for Rook Easy array matrix simulation
+1000 Minimum Cost to Merge Stones Hard array dynamic-programming prefix-sum
+1001 Grid Illumination Hard array hash-table
+1002 Find Common Characters Easy array hash-table string
+1003 Check If Word Is Valid After Substitutions Medium string stack
+1004 Max Consecutive Ones III Medium array binary-search sliding-window prefix-sum
+1005 Maximize Sum Of Array After K Negations Easy array greedy sorting
+1006 Clumsy Factorial Medium math stack simulation
+1007 Minimum Domino Rotations For Equal Row Medium array greedy
+1008 Construct Binary Search Tree from Preorder Traversal Medium array stack tree binary-search-tree monotonic-stack binary-tree
+1009 Complement of Base 10 Integer Easy bit-manipulation
+1010 Pairs of Songs With Total Durations Divisible by 60 Medium array hash-table counting
+1011 Capacity To Ship Packages Within D Days Medium array binary-search
+1012 Numbers With Repeated Digits Hard math dynamic-programming
+1013 Partition Array Into Three Parts With Equal Sum Easy array greedy
+1014 Best Sightseeing Pair Medium array dynamic-programming
+1015 Smallest Integer Divisible by K Medium hash-table math
+1016 Binary String With Substrings Representing 1 To N Medium string
+1017 Convert to Base -2 Medium math
+1018 Binary Prefix Divisible By 5 Easy array
+1019 Next Greater Node In Linked List Medium array linked-list stack monotonic-stack
+1020 Number of Enclaves Medium array depth-first-search breadth-first-search union-find matrix
+1021 Remove Outermost Parentheses Easy string stack
+1022 Sum of Root To Leaf Binary Numbers Easy tree depth-first-search binary-tree
+1023 Camelcase Matching Medium two-pointers string trie string-matching
+1024 Video Stitching Medium array dynamic-programming greedy
+1025 Divisor Game Easy math dynamic-programming brainteaser game-theory
+1026 Maximum Difference Between Node and Ancestor Medium tree depth-first-search binary-tree
+1027 Longest Arithmetic Subsequence Medium array hash-table binary-search dynamic-programming
+1028 Recover a Tree From Preorder Traversal Hard string tree depth-first-search binary-tree
+1029 Two City Scheduling Medium array greedy sorting
+1030 Matrix Cells in Distance Order Easy array math geometry sorting matrix
+1031 Maximum Sum of Two Non-Overlapping Subarrays Medium array dynamic-programming sliding-window
+1032 Stream of Characters Hard array string design trie data-stream
+1033 Moving Stones Until Consecutive Medium math brainteaser
+1034 Coloring A Border Medium array depth-first-search breadth-first-search matrix
+1035 Uncrossed Lines Medium array dynamic-programming
+1036 Escape a Large Maze Hard array hash-table depth-first-search breadth-first-search
+1037 Valid Boomerang Easy array math geometry
+1038 Binary Search Tree to Greater Sum Tree Medium tree depth-first-search binary-search-tree binary-tree
+1039 Minimum Score Triangulation of Polygon Medium array dynamic-programming
+1040 Moving Stones Until Consecutive II Medium array math two-pointers sorting
+1041 Robot Bounded In Circle Medium math string simulation
+1042 Flower Planting With No Adjacent Medium depth-first-search breadth-first-search graph
+1043 Partition Array for Maximum Sum Medium array dynamic-programming
+1044 Longest Duplicate Substring Hard string binary-search sliding-window rolling-hash suffix-array hash-function
+1045 Customers Who Bought All Products Medium database
+1046 Last Stone Weight Easy array heap-priority-queue
+1047 Remove All Adjacent Duplicates In String Easy string stack
+1048 Longest String Chain Medium array hash-table two-pointers string dynamic-programming
+1049 Last Stone Weight II Medium array dynamic-programming
+1050 Actors and Directors Who Cooperated At Least Three Times Easy database
+1051 Height Checker Easy array sorting counting-sort
+1052 Grumpy Bookstore Owner Medium array sliding-window
+1053 Previous Permutation With One Swap Medium array greedy
+1054 Distant Barcodes Medium array hash-table greedy sorting heap-priority-queue counting
+1061 Lexicographically Smallest Equivalent String Medium string union-find
+1068 Product Sales Analysis I Easy database
+1070 Product Sales Analysis III Medium database
+1071 Greatest Common Divisor of Strings Easy math string
+1072 Flip Columns For Maximum Number of Equal Rows Medium array hash-table matrix
+1073 Adding Two Negabinary Numbers Medium array math
+1074 Number of Submatrices That Sum to Target Hard array hash-table matrix prefix-sum
+1075 Project Employees I Easy database
+1078 Occurrences After Bigram Easy string
+1079 Letter Tile Possibilities Medium hash-table string backtracking counting
+1080 Insufficient Nodes in Root to Leaf Paths Medium tree depth-first-search binary-tree
+1081 Smallest Subsequence of Distinct Characters Medium string stack greedy monotonic-stack
+1084 Sales Analysis III Easy database
+1089 Duplicate Zeros Easy array two-pointers
+1090 Largest Values From Labels Medium array hash-table greedy sorting counting
+1091 Shortest Path in Binary Matrix Medium array breadth-first-search matrix
+1092 Shortest Common Supersequence  Hard string dynamic-programming
+1093 Statistics from a Large Sample Medium array math probability-and-statistics
+1094 Car Pooling Medium array sorting heap-priority-queue simulation prefix-sum
+1095 Find in Mountain Array Hard array binary-search interactive
+1096 Brace Expansion II Hard string backtracking stack breadth-first-search
+1103 Distribute Candies to People Easy math simulation
+1104 Path In Zigzag Labelled Binary Tree Medium math tree binary-tree
+1105 Filling Bookcase Shelves Medium array dynamic-programming
+1106 Parsing A Boolean Expression Hard string stack recursion
+1108 Defanging an IP Address Easy string
+1109 Corporate Flight Bookings Medium array prefix-sum
+1110 Delete Nodes And Return Forest Medium tree depth-first-search binary-tree
+1111 Maximum Nesting Depth of Two Valid Parentheses Strings Medium string stack
+1114 Print in Order Easy concurrency
+1115 Print FooBar Alternately Medium concurrency
+1116 Print Zero Even Odd Medium concurrency
+1117 Building H2O Medium concurrency
+1122 Relative Sort Array Easy array hash-table sorting counting-sort
+1123 Lowest Common Ancestor of Deepest Leaves Medium hash-table tree depth-first-search breadth-first-search binary-tree
+1124 Longest Well-Performing Interval Medium array hash-table stack monotonic-stack prefix-sum
+1125 Smallest Sufficient Team Hard array dynamic-programming bit-manipulation bitmask
+1128 Number of Equivalent Domino Pairs Easy array hash-table counting
+1129 Shortest Path with Alternating Colors Medium breadth-first-search graph
+1130 Minimum Cost Tree From Leaf Values Medium array dynamic-programming stack greedy monotonic-stack
+1131 Maximum of Absolute Value Expression Medium array math
+1137 N-th Tribonacci Number Easy math dynamic-programming memoization
+1138 Alphabet Board Path Medium hash-table string
+1139 Largest 1-Bordered Square Medium array dynamic-programming matrix
+1140 Stone Game II Medium array math dynamic-programming game-theory
+1141 User Activity for the Past 30 Days I Easy database
+1143 Longest Common Subsequence Medium string dynamic-programming
+1144 Decrease Elements To Make Array Zigzag Medium array greedy
+1145 Binary Tree Coloring Game Medium tree depth-first-search binary-tree
+1146 Snapshot Array Medium array hash-table binary-search design
+1147 Longest Chunked Palindrome Decomposition Hard two-pointers string dynamic-programming greedy rolling-hash hash-function
+1148 Article Views I Easy database
+1154 Day of the Year Easy math string
+1155 Number of Dice Rolls With Target Sum Medium dynamic-programming
+1156 Swap For Longest Repeated Character Substring Medium string sliding-window
+1157 Online Majority Element In Subarray Hard array binary-search design binary-indexed-tree segment-tree
+1158 Market Analysis I Medium database
+1160 Find Words That Can Be Formed by Characters Easy array hash-table string
+1161 Maximum Level Sum of a Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+1162 As Far from Land as Possible Medium array dynamic-programming breadth-first-search matrix
+1163 Last Substring in Lexicographical Order Hard two-pointers string
+1164 Product Price at a Given Date Medium database
+1169 Invalid Transactions Medium array hash-table string sorting
+1170 Compare Strings by Frequency of the Smallest Character Medium array hash-table string binary-search sorting
+1171 Remove Zero Sum Consecutive Nodes from Linked List Medium hash-table linked-list
+1172 Dinner Plate Stacks Hard hash-table stack design heap-priority-queue
+1174 Immediate Food Delivery II Medium database
+1175 Prime Arrangements Easy math
+1177 Can Make Palindrome from Substring Medium hash-table string bit-manipulation prefix-sum
+1178 Number of Valid Words for Each Puzzle Hard array hash-table string bit-manipulation trie
+1179 Reformat Department Table Easy database
+1184 Distance Between Bus Stops Easy array
+1185 Day of the Week Easy math
+1186 Maximum Subarray Sum with One Deletion Medium array dynamic-programming
+1187 Make Array Strictly Increasing Hard array binary-search dynamic-programming sorting
+1189 Maximum Number of Balloons Easy hash-table string counting
+1190 Reverse Substrings Between Each Pair of Parentheses Medium string stack
+1191 K-Concatenation Maximum Sum Medium array dynamic-programming
+1192 Critical Connections in a Network Hard depth-first-search graph biconnected-component
+1193 Monthly Transactions I Medium database
+1195 Fizz Buzz Multithreaded Medium concurrency
+1200 Minimum Absolute Difference Easy array sorting
+1201 Ugly Number III Medium math binary-search number-theory
+1202 Smallest String With Swaps Medium hash-table string depth-first-search breadth-first-search union-find
+1203 Sort Items by Groups Respecting Dependencies Hard depth-first-search breadth-first-search graph topological-sort
+1204 Last Person to Fit in the Bus Medium database
+1206 Design Skiplist Hard linked-list design
+1207 Unique Number of Occurrences Easy array hash-table
+1208 Get Equal Substrings Within Budget Medium string binary-search sliding-window prefix-sum
+1209 Remove All Adjacent Duplicates in String II Medium string stack
+1210 Minimum Moves to Reach Target with Rotations Hard array breadth-first-search matrix
+1211 Queries Quality and Percentage Easy database
+1217 Minimum Cost to Move Chips to The Same Position Easy array math greedy
+1218 Longest Arithmetic Subsequence of Given Difference Medium array hash-table dynamic-programming
+1219 Path with Maximum Gold Medium array backtracking matrix
+1220 Count Vowels Permutation Hard dynamic-programming
+1221 Split a String in Balanced Strings Easy string greedy counting
+1222 Queens That Can Attack the King Medium array matrix simulation
+1223 Dice Roll Simulation Hard array dynamic-programming
+1224 Maximum Equal Frequency Hard array hash-table
+1226 The Dining Philosophers Medium concurrency
+1227 Airplane Seat Assignment Probability Medium math dynamic-programming brainteaser probability-and-statistics
+1232 Check If It Is a Straight Line Easy array math geometry
+1233 Remove Sub-Folders from the Filesystem Medium array string trie
+1234 Replace the Substring for Balanced String Medium string sliding-window
+1235 Maximum Profit in Job Scheduling Hard array binary-search dynamic-programming sorting
+1237 Find Positive Integer Solution for a Given Equation Medium math two-pointers binary-search interactive
+1238 Circular Permutation in Binary Representation Medium math backtracking bit-manipulation
+1239 Maximum Length of a Concatenated String with Unique Characters Medium array string backtracking bit-manipulation
+1240 Tiling a Rectangle with the Fewest Squares Hard dynamic-programming backtracking
+1247 Minimum Swaps to Make Strings Equal Medium math string greedy
+1248 Count Number of Nice Subarrays Medium array hash-table math sliding-window
+1249 Minimum Remove to Make Valid Parentheses Medium string stack
+1250 Check If It Is a Good Array Hard array math number-theory
+1251 Average Selling Price Easy database
+1252 Cells with Odd Values in a Matrix Easy array math simulation
+1253 Reconstruct a 2-Row Binary Matrix Medium array greedy matrix
+1254 Number of Closed Islands Medium array depth-first-search breadth-first-search union-find matrix
+1255 Maximum Score Words Formed by Letters Hard array string dynamic-programming backtracking bit-manipulation bitmask
+1260 Shift 2D Grid Easy array matrix simulation
+1261 Find Elements in a Contaminated Binary Tree Medium hash-table tree depth-first-search breadth-first-search design binary-tree
+1262 Greatest Sum Divisible by Three Medium array dynamic-programming greedy
+1263 Minimum Moves to Move a Box to Their Target Location Hard array breadth-first-search heap-priority-queue matrix
+1266 Minimum Time Visiting All Points Easy array math geometry
+1267 Count Servers that Communicate Medium array depth-first-search breadth-first-search union-find matrix counting
+1268 Search Suggestions System Medium array string trie
+1269 Number of Ways to Stay in the Same Place After Some Steps Hard dynamic-programming
+1275 Find Winner on a Tic Tac Toe Game Easy array hash-table matrix simulation
+1276 Number of Burgers with No Waste of Ingredients Medium math
+1277 Count Square Submatrices with All Ones Medium array dynamic-programming matrix
+1278 Palindrome Partitioning III Hard string dynamic-programming
+1280 Students and Examinations Easy database
+1281 Subtract the Product and Sum of Digits of an Integer Easy math
+1282 Group the People Given the Group Size They Belong To Medium array hash-table
+1283 Find the Smallest Divisor Given a Threshold Medium array binary-search
+1284 Minimum Number of Flips to Convert Binary Matrix to Zero Matrix Hard array bit-manipulation breadth-first-search matrix
+1286 Iterator for Combination Medium string backtracking design iterator
+1287 Element Appearing More Than 25% In Sorted Array Easy array
+1288 Remove Covered Intervals Medium array sorting
+1289 Minimum Falling Path Sum II Hard array dynamic-programming matrix
+1290 Convert Binary Number in a Linked List to Integer Easy linked-list math
+1291 Sequential Digits Medium enumeration
+1292 Maximum Side Length of a Square with Sum Less than or Equal to Threshold Medium array binary-search matrix prefix-sum
+1293 Shortest Path in a Grid with Obstacles Elimination Hard array breadth-first-search matrix
+1295 Find Numbers with Even Number of Digits Easy array
+1296 Divide Array in Sets of K Consecutive Numbers Medium array hash-table greedy sorting
+1297 Maximum Number of Occurrences of a Substring Medium hash-table string sliding-window
+1298 Maximum Candies You Can Get from Boxes Hard array breadth-first-search graph
+1299 Replace Elements with Greatest Element on Right Side Easy array
+1300 Sum of Mutated Array Closest to Target Medium array binary-search sorting
+1301 Number of Paths with Max Score Hard array dynamic-programming matrix
+1302 Deepest Leaves Sum Medium tree depth-first-search breadth-first-search binary-tree
+1304 Find N Unique Integers Sum up to Zero Easy array math
+1305 All Elements in Two Binary Search Trees Medium tree depth-first-search binary-search-tree sorting binary-tree
+1306 Jump Game III Medium array depth-first-search breadth-first-search
+1307 Verbal Arithmetic Puzzle Hard array math string backtracking
+1309 Decrypt String from Alphabet to Integer Mapping Easy string
+1310 XOR Queries of a Subarray Medium array bit-manipulation prefix-sum
+1311 Get Watched Videos by Your Friends Medium array hash-table breadth-first-search graph sorting
+1312 Minimum Insertion Steps to Make a String Palindrome Hard string dynamic-programming
+1313 Decompress Run-Length Encoded List Easy array
+1314 Matrix Block Sum Medium array matrix prefix-sum
+1315 Sum of Nodes with Even-Valued Grandparent Medium tree depth-first-search breadth-first-search binary-tree
+1316 Distinct Echo Substrings Hard string trie rolling-hash hash-function
+1317 Convert Integer to the Sum of Two No-Zero Integers Easy math
+1318 Minimum Flips to Make a OR b Equal to c Medium bit-manipulation
+1319 Number of Operations to Make Network Connected Medium depth-first-search breadth-first-search union-find graph
+1320 Minimum Distance to Type a Word Using Two Fingers Hard string dynamic-programming
+1321 Restaurant Growth Medium database
+1323 Maximum 69 Number Easy math greedy
+1324 Print Words Vertically Medium array string simulation
+1325 Delete Leaves With a Given Value Medium tree depth-first-search binary-tree
+1326 Minimum Number of Taps to Open to Water a Garden Hard array dynamic-programming greedy
+1327 List the Products Ordered in a Period Easy database
+1328 Break a Palindrome Medium string greedy
+1329 Sort the Matrix Diagonally Medium array sorting matrix
+1330 Reverse Subarray To Maximize Array Value Hard array math greedy
+1331 Rank Transform of an Array Easy array hash-table sorting
+1332 Remove Palindromic Subsequences Easy two-pointers string
+1333 Filter Restaurants by Vegan-Friendly, Price and Distance Medium array sorting
+1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance Medium dynamic-programming graph shortest-path
+1335 Minimum Difficulty of a Job Schedule Hard array dynamic-programming
+1337 The K Weakest Rows in a Matrix Easy array binary-search sorting heap-priority-queue matrix
+1338 Reduce Array Size to The Half Medium array hash-table greedy sorting heap-priority-queue
+1339 Maximum Product of Splitted Binary Tree Medium tree depth-first-search binary-tree
+1340 Jump Game V Hard array dynamic-programming sorting
+1341 Movie Rating Medium database
+1342 Number of Steps to Reduce a Number to Zero Easy math bit-manipulation
+1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold Medium array sliding-window
+1344 Angle Between Hands of a Clock Medium math
+1345 Jump Game IV Hard array hash-table breadth-first-search
+1346 Check If N and Its Double Exist Easy array hash-table two-pointers binary-search sorting
+1347 Minimum Number of Steps to Make Two Strings Anagram Medium hash-table string counting
+1348 Tweet Counts Per Frequency Medium hash-table binary-search design sorting ordered-set
+1349 Maximum Students Taking Exam Hard array dynamic-programming bit-manipulation matrix bitmask
+1351 Count Negative Numbers in a Sorted Matrix Easy array binary-search matrix
+1352 Product of the Last K Numbers Medium array math design queue data-stream
+1353 Maximum Number of Events That Can Be Attended Medium array greedy sorting heap-priority-queue
+1354 Construct Target Array With Multiple Sums Hard array heap-priority-queue
+1356 Sort Integers by The Number of 1 Bits Easy array bit-manipulation sorting counting
+1357 Apply Discount Every n Orders Medium array hash-table design
+1358 Number of Substrings Containing All Three Characters Medium hash-table string sliding-window
+1359 Count All Valid Pickup and Delivery Options Hard math dynamic-programming combinatorics
+1360 Number of Days Between Two Dates Easy math string
+1361 Validate Binary Tree Nodes Medium tree depth-first-search breadth-first-search union-find graph binary-tree
+1362 Closest Divisors Medium math
+1363 Largest Multiple of Three Hard array dynamic-programming greedy
+1365 How Many Numbers Are Smaller Than the Current Number Easy array hash-table sorting counting
+1366 Rank Teams by Votes Medium array hash-table string sorting counting
+1367 Linked List in Binary Tree Medium linked-list tree depth-first-search breadth-first-search binary-tree
+1368 Minimum Cost to Make at Least One Valid Path in a Grid Hard array breadth-first-search graph heap-priority-queue matrix shortest-path
+1370 Increasing Decreasing String Easy hash-table string counting
+1371 Find the Longest Substring Containing Vowels in Even Counts Medium hash-table string bit-manipulation prefix-sum
+1372 Longest ZigZag Path in a Binary Tree Medium dynamic-programming tree depth-first-search binary-tree
+1373 Maximum Sum BST in Binary Tree Hard dynamic-programming tree depth-first-search binary-search-tree binary-tree
+1374 Generate a String With Characters That Have Odd Counts Easy string
+1375 Number of Times Binary String Is Prefix-Aligned Medium array
+1376 Time Needed to Inform All Employees Medium tree depth-first-search breadth-first-search
+1377 Frog Position After T Seconds Hard tree depth-first-search breadth-first-search graph
+1378 Replace Employee ID With The Unique Identifier Easy database
+1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree Easy tree depth-first-search breadth-first-search binary-tree
+1380 Lucky Numbers in a Matrix Easy array matrix
+1381 Design a Stack With Increment Operation Medium array stack design
+1382 Balance a Binary Search Tree Medium divide-and-conquer greedy tree depth-first-search binary-search-tree binary-tree
+1383 Maximum Performance of a Team Hard array greedy sorting heap-priority-queue
+1385 Find the Distance Value Between Two Arrays Easy array two-pointers binary-search sorting
+1386 Cinema Seat Allocation Medium array hash-table greedy bit-manipulation
+1387 Sort Integers by The Power Value Medium dynamic-programming memoization sorting
+1388 Pizza With 3n Slices Hard array dynamic-programming greedy heap-priority-queue
+1389 Create Target Array in the Given Order Easy array simulation
+1390 Four Divisors Medium array math
+1391 Check if There is a Valid Path in a Grid Medium array depth-first-search breadth-first-search union-find matrix
+1392 Longest Happy Prefix Hard string rolling-hash string-matching hash-function
+1393 Capital Gain/Loss Medium database
+1394 Find Lucky Integer in an Array Easy array hash-table counting
+1395 Count Number of Teams Medium array dynamic-programming binary-indexed-tree
+1396 Design Underground System Medium hash-table string design
+1397 Find All Good Strings Hard string dynamic-programming string-matching
+1399 Count Largest Group Easy hash-table math
+1400 Construct K Palindrome Strings Medium hash-table string greedy counting
+1401 Circle and Rectangle Overlapping Medium math geometry
+1402 Reducing Dishes Hard array dynamic-programming greedy sorting
+1403 Minimum Subsequence in Non-Increasing Order Easy array greedy sorting
+1404 Number of Steps to Reduce a Number in Binary Representation to One Medium string bit-manipulation
+1405 Longest Happy String Medium string greedy heap-priority-queue
+1406 Stone Game III Hard array math dynamic-programming game-theory
+1407 Top Travellers Easy database
+1408 String Matching in an Array Easy array string string-matching
+1409 Queries on a Permutation With Key Medium array binary-indexed-tree simulation
+1410 HTML Entity Parser Medium hash-table string
+1411 Number of Ways to Paint N × 3 Grid Hard dynamic-programming
+1413 Minimum Value to Get Positive Step by Step Sum Easy array prefix-sum
+1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K Medium math greedy
+1415 The k-th Lexicographical String of All Happy Strings of Length n Medium string backtracking
+1416 Restore The Array Hard string dynamic-programming
+1417 Reformat The String Easy string
+1418 Display Table of Food Orders in a Restaurant Medium array hash-table string sorting ordered-set
+1419 Minimum Number of Frogs Croaking Medium string counting
+1420 Build Array Where You Can Find The Maximum Exactly K Comparisons Hard dynamic-programming prefix-sum
+1422 Maximum Score After Splitting a String Easy string
+1423 Maximum Points You Can Obtain from Cards Medium array sliding-window prefix-sum
+1424 Diagonal Traverse II Medium array sorting heap-priority-queue
+1425 Constrained Subsequence Sum Hard array dynamic-programming queue sliding-window heap-priority-queue monotonic-queue
+1431 Kids With the Greatest Number of Candies Easy array
+1432 Max Difference You Can Get From Changing an Integer Medium math greedy
+1433 Check If a String Can Break Another String Medium string greedy sorting
+1434 Number of Ways to Wear Different Hats to Each Other Hard array dynamic-programming bit-manipulation bitmask
+1436 Destination City Easy hash-table string
+1437 Check If All 1's Are at Least Length K Places Away Easy array
+1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit Medium array queue sliding-window heap-priority-queue ordered-set monotonic-queue
+1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows Hard array binary-search heap-priority-queue matrix
+1441 Build an Array With Stack Operations Medium array stack simulation
+1442 Count Triplets That Can Form Two Arrays of Equal XOR Medium array hash-table math bit-manipulation prefix-sum
+1443 Minimum Time to Collect All Apples in a Tree Medium hash-table tree depth-first-search breadth-first-search
+1444 Number of Ways of Cutting a Pizza Hard array dynamic-programming memoization matrix
+1446 Consecutive Characters Easy string
+1447 Simplified Fractions Medium math string number-theory
+1448 Count Good Nodes in Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+1449 Form Largest Integer With Digits That Add up to Target Hard array dynamic-programming
+1450 Number of Students Doing Homework at a Given Time Easy array
+1451 Rearrange Words in a Sentence Medium string sorting
+1452 People Whose List of Favorite Companies Is Not a Subset of Another List Medium array hash-table string
+1453 Maximum Number of Darts Inside of a Circular Dartboard Hard array math geometry
+1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence Easy string string-matching
+1456 Maximum Number of Vowels in a Substring of Given Length Medium string sliding-window
+1457 Pseudo-Palindromic Paths in a Binary Tree Medium bit-manipulation tree depth-first-search breadth-first-search binary-tree
+1458 Max Dot Product of Two Subsequences Hard array dynamic-programming
+1460 Make Two Arrays Equal by Reversing Subarrays Easy array hash-table sorting
+1461 Check If a String Contains All Binary Codes of Size K Medium hash-table string bit-manipulation rolling-hash hash-function
+1462 Course Schedule IV Medium depth-first-search breadth-first-search graph topological-sort
+1463 Cherry Pickup II Hard array dynamic-programming matrix
+1464 Maximum Product of Two Elements in an Array Easy array sorting heap-priority-queue
+1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts Medium array greedy sorting
+1466 Reorder Routes to Make All Paths Lead to the City Zero Medium depth-first-search breadth-first-search graph
+1467 Probability of a Two Boxes Having The Same Number of Distinct Balls Hard array math dynamic-programming backtracking combinatorics probability-and-statistics
+1470 Shuffle the Array Easy array
+1471 The k Strongest Values in an Array Medium array two-pointers sorting
+1472 Design Browser History Medium array linked-list stack design doubly-linked-list data-stream
+1473 Paint House III Hard array dynamic-programming
+1475 Final Prices With a Special Discount in a Shop Easy array stack monotonic-stack
+1476 Subrectangle Queries Medium array design matrix
+1477 Find Two Non-overlapping Sub-arrays Each With Target Sum Medium array hash-table binary-search dynamic-programming sliding-window
+1478 Allocate Mailboxes Hard array math dynamic-programming sorting
+1480 Running Sum of 1d Array Easy array prefix-sum
+1481 Least Number of Unique Integers after K Removals Medium array hash-table greedy sorting counting
+1482 Minimum Number of Days to Make m Bouquets Medium array binary-search
+1483 Kth Ancestor of a Tree Node Hard binary-search dynamic-programming tree depth-first-search breadth-first-search design
+1484 Group Sold Products By The Date Easy database
+1486 XOR Operation in an Array Easy math bit-manipulation
+1487 Making File Names Unique Medium array hash-table string
+1488 Avoid Flood in The City Medium array hash-table binary-search greedy heap-priority-queue
+1489 Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree Hard union-find graph sorting minimum-spanning-tree strongly-connected-component
+1491 Average Salary Excluding the Minimum and Maximum Salary Easy array sorting
+1492 The kth Factor of n Medium math number-theory
+1493 Longest Subarray of 1's After Deleting One Element Medium array dynamic-programming sliding-window
+1494 Parallel Courses II Hard dynamic-programming bit-manipulation graph bitmask
+1496 Path Crossing Easy hash-table string
+1497 Check If Array Pairs Are Divisible by k Medium array hash-table counting
+1498 Number of Subsequences That Satisfy the Given Sum Condition Medium array two-pointers binary-search sorting
+1499 Max Value of Equation Hard array queue sliding-window heap-priority-queue monotonic-queue
+1502 Can Make Arithmetic Progression From Sequence Easy array sorting
+1503 Last Moment Before All Ants Fall Out of a Plank Medium array brainteaser simulation
+1504 Count Submatrices With All Ones Medium array dynamic-programming stack matrix monotonic-stack
+1505 Minimum Possible Integer After at Most K Adjacent Swaps On Digits Hard string greedy binary-indexed-tree segment-tree
+1507 Reformat Date Easy string
+1508 Range Sum of Sorted Subarray Sums Medium array two-pointers binary-search sorting
+1509 Minimum Difference Between Largest and Smallest Value in Three Moves Medium array greedy sorting
+1510 Stone Game IV Hard math dynamic-programming game-theory
+1512 Number of Good Pairs Easy array hash-table math counting
+1513 Number of Substrings With Only 1s Medium math string
+1514 Path with Maximum Probability Medium array graph heap-priority-queue shortest-path
+1515 Best Position for a Service Centre Hard math geometry randomized
+1517 Find Users With Valid E-Mails Easy database
+1518 Water Bottles Easy math simulation
+1519 Number of Nodes in the Sub-Tree With the Same Label Medium hash-table tree depth-first-search breadth-first-search counting
+1520 Maximum Number of Non-Overlapping Substrings Hard string greedy
+1521 Find a Value of a Mysterious Function Closest to Target Hard array binary-search bit-manipulation segment-tree
+1523 Count Odd Numbers in an Interval Range Easy math
+1524 Number of Sub-arrays With Odd Sum Medium array math dynamic-programming prefix-sum
+1525 Number of Good Ways to Split a String Medium string dynamic-programming bit-manipulation
+1526 Minimum Number of Increments on Subarrays to Form a Target Array Hard array dynamic-programming stack greedy monotonic-stack
+1527 Patients With a Condition Easy database
+1528 Shuffle String Easy array string
+1529 Minimum Suffix Flips Medium string greedy
+1530 Number of Good Leaf Nodes Pairs Medium tree depth-first-search binary-tree
+1531 String Compression II Hard string dynamic-programming
+1534 Count Good Triplets Easy array enumeration
+1535 Find the Winner of an Array Game Medium array simulation
+1536 Minimum Swaps to Arrange a Binary Grid Medium array greedy matrix
+1537 Get the Maximum Score Hard array two-pointers dynamic-programming greedy
+1539 Kth Missing Positive Number Easy array binary-search
+1540 Can Convert String in K Moves Medium hash-table string
+1541 Minimum Insertions to Balance a Parentheses String Medium string stack greedy
+1542 Find Longest Awesome Substring Hard hash-table string bit-manipulation
+1544 Make The String Great Easy string stack
+1545 Find Kth Bit in Nth Binary String Medium string recursion
+1546 Maximum Number of Non-Overlapping Subarrays With Sum Equals Target Medium array hash-table greedy prefix-sum
+1547 Minimum Cost to Cut a Stick Hard array dynamic-programming sorting
+1550 Three Consecutive Odds Easy array
+1551 Minimum Operations to Make Array Equal Medium math
+1552 Magnetic Force Between Two Balls Medium array binary-search sorting
+1553 Minimum Number of Days to Eat N Oranges Hard dynamic-programming memoization
+1556 Thousand Separator Easy string
+1557 Minimum Number of Vertices to Reach All Nodes Medium graph
+1558 Minimum Numbers of Function Calls to Make Target Array Medium array greedy bit-manipulation
+1559 Detect Cycles in 2D Grid Medium array depth-first-search breadth-first-search union-find matrix
+1560 Most Visited Sector in  a Circular Track Easy array simulation
+1561 Maximum Number of Coins You Can Get Medium array math greedy sorting game-theory
+1562 Find Latest Group of Size M Medium array binary-search simulation
+1563 Stone Game V Hard array math dynamic-programming game-theory
+1566 Detect Pattern of Length M Repeated K or More Times Easy array enumeration
+1567 Maximum Length of Subarray With Positive Product Medium array dynamic-programming greedy
+1568 Minimum Number of Days to Disconnect Island Hard array depth-first-search breadth-first-search matrix strongly-connected-component
+1569 Number of Ways to Reorder Array to Get Same BST Hard array math divide-and-conquer dynamic-programming tree union-find binary-search-tree memoization combinatorics binary-tree
+1572 Matrix Diagonal Sum Easy array matrix
+1573 Number of Ways to Split a String Medium math string
+1574 Shortest Subarray to be Removed to Make Array Sorted Medium array two-pointers binary-search stack monotonic-stack
+1575 Count All Possible Routes Hard array dynamic-programming memoization
+1576 Replace All ?'s to Avoid Consecutive Repeating Characters Easy string
+1577 Number of Ways Where Square of Number Is Equal to Product of Two Numbers Medium array hash-table math two-pointers
+1578 Minimum Time to Make Rope Colorful Medium array string dynamic-programming greedy
+1579 Remove Max Number of Edges to Keep Graph Fully Traversable Hard union-find graph
+1581 Customer Who Visited but Did Not Make Any Transactions Easy database
+1582 Special Positions in a Binary Matrix Easy array matrix
+1583 Count Unhappy Friends Medium array simulation
+1584 Min Cost to Connect All Points Medium array union-find graph minimum-spanning-tree
+1585 Check If String Is Transformable With Substring Sort Operations Hard string greedy sorting
+1587 Bank Account Summary II Easy database
+1588 Sum of All Odd Length Subarrays Easy array math prefix-sum
+1589 Maximum Sum Obtained of Any Permutation Medium array greedy sorting prefix-sum
+1590 Make Sum Divisible by P Medium array hash-table prefix-sum
+1591 Strange Printer II Hard array graph topological-sort matrix
+1592 Rearrange Spaces Between Words Easy string
+1593 Split a String Into the Max Number of Unique Substrings Medium hash-table string backtracking
+1594 Maximum Non Negative Product in a Matrix Medium array dynamic-programming matrix
+1595 Minimum Cost to Connect Two Groups of Points Hard array dynamic-programming bit-manipulation matrix bitmask
+1598 Crawler Log Folder Easy array string stack
+1599 Maximum Profit of Operating a Centennial Wheel Medium array simulation
+1600 Throne Inheritance Medium hash-table tree depth-first-search design
+1601 Maximum Number of Achievable Transfer Requests Hard array backtracking bit-manipulation enumeration
+1603 Design Parking System Easy design simulation counting
+1604 Alert Using Same Key-Card Three or More Times in a One Hour Period Medium array hash-table string sorting
+1605 Find Valid Matrix Given Row and Column Sums Medium array greedy matrix
+1606 Find Servers That Handled Most Number of Requests Hard array greedy heap-priority-queue ordered-set
+1608 Special Array With X Elements Greater Than or Equal X Easy array binary-search sorting
+1609 Even Odd Tree Medium tree breadth-first-search binary-tree
+1610 Maximum Number of Visible Points Hard array math geometry sliding-window sorting
+1611 Minimum One Bit Operations to Make Integers Zero Hard dynamic-programming bit-manipulation memoization
+1614 Maximum Nesting Depth of the Parentheses Easy string stack
+1615 Maximal Network Rank Medium graph
+1616 Split Two Strings to Make Palindrome Medium two-pointers string
+1617 Count Subtrees With Max Distance Between Cities Hard dynamic-programming bit-manipulation tree enumeration bitmask
+1619 Mean of Array After Removing Some Elements Easy array sorting
+1620 Coordinate With Maximum Network Quality Medium array enumeration
+1621 Number of Sets of K Non-Overlapping Line Segments Medium math dynamic-programming
+1622 Fancy Sequence Hard math design segment-tree
+1624 Largest Substring Between Two Equal Characters Easy hash-table string
+1625 Lexicographically Smallest String After Applying Operations Medium string breadth-first-search
+1626 Best Team With No Conflicts Medium array dynamic-programming sorting
+1627 Graph Connectivity With Threshold Hard array math union-find
+1629 Slowest Key Easy array string
+1630 Arithmetic Subarrays Medium array sorting
+1631 Path With Minimum Effort Medium array binary-search depth-first-search breadth-first-search union-find heap-priority-queue matrix
+1632 Rank Transform of a Matrix Hard array greedy union-find graph topological-sort matrix
+1633 Percentage of Users Attended a Contest Easy database
+1636 Sort Array by Increasing Frequency Easy array hash-table sorting
+1637 Widest Vertical Area Between Two Points Containing No Points Medium array sorting
+1638 Count Substrings That Differ by One Character Medium hash-table string dynamic-programming
+1639 Number of Ways to Form a Target String Given a Dictionary Hard array string dynamic-programming
+1640 Check Array Formation Through Concatenation Easy array hash-table
+1641 Count Sorted Vowel Strings Medium math dynamic-programming combinatorics
+1642 Furthest Building You Can Reach Medium array greedy heap-priority-queue
+1643 Kth Smallest Instructions Hard array math dynamic-programming combinatorics
+1646 Get Maximum in Generated Array Easy array dynamic-programming simulation
+1647 Minimum Deletions to Make Character Frequencies Unique Medium hash-table string greedy sorting
+1648 Sell Diminishing-Valued Colored Balls Medium array math binary-search greedy sorting heap-priority-queue
+1649 Create Sorted Array through Instructions Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+1652 Defuse the Bomb Easy array
+1653 Minimum Deletions to Make String Balanced Medium string dynamic-programming stack
+1654 Minimum Jumps to Reach Home Medium array dynamic-programming breadth-first-search
+1655 Distribute Repeating Integers Hard array dynamic-programming backtracking bit-manipulation bitmask
+1656 Design an Ordered Stream Easy array hash-table design data-stream
+1657 Determine if Two Strings Are Close Medium hash-table string sorting
+1658 Minimum Operations to Reduce X to Zero Medium array hash-table binary-search sliding-window prefix-sum
+1659 Maximize Grid Happiness Hard dynamic-programming bit-manipulation memoization bitmask
+1661 Average Time of Process per Machine Easy database
+1662 Check If Two String Arrays are Equivalent Easy array string
+1663 Smallest String With A Given Numeric Value Medium string greedy
+1664 Ways to Make a Fair Array Medium array dynamic-programming
+1665 Minimum Initial Energy to Finish Tasks Hard array greedy sorting
+1667 Fix Names in a Table Easy database
+1668 Maximum Repeating Substring Easy string string-matching
+1669 Merge In Between Linked Lists Medium linked-list
+1670 Design Front Middle Back Queue Medium array linked-list design queue data-stream
+1671 Minimum Number of Removals to Make Mountain Array Hard array binary-search dynamic-programming greedy
+1672 Richest Customer Wealth Easy array matrix
+1673 Find the Most Competitive Subsequence Medium array stack greedy monotonic-stack
+1674 Minimum Moves to Make Array Complementary Medium array hash-table prefix-sum
+1675 Minimize Deviation in Array Hard array greedy heap-priority-queue ordered-set
+1678 Goal Parser Interpretation Easy string
+1679 Max Number of K-Sum Pairs Medium array hash-table two-pointers sorting
+1680 Concatenation of Consecutive Binary Numbers Medium math bit-manipulation simulation
+1681 Minimum Incompatibility Hard array dynamic-programming bit-manipulation bitmask
+1683 Invalid Tweets Easy database
+1684 Count the Number of Consistent Strings Easy array hash-table string bit-manipulation
+1685 Sum of Absolute Differences in a Sorted Array Medium array math prefix-sum
+1686 Stone Game VI Medium array math greedy sorting heap-priority-queue game-theory
+1687 Delivering Boxes from Storage to Ports Hard array dynamic-programming segment-tree queue heap-priority-queue prefix-sum monotonic-queue
+1688 Count of Matches in Tournament Easy math simulation
+1689 Partitioning Into Minimum Number Of Deci-Binary Numbers Medium string greedy
+1690 Stone Game VII Medium array math dynamic-programming game-theory
+1691 Maximum Height by Stacking Cuboids  Hard array dynamic-programming sorting
+1693 Daily Leads and Partners Easy database
+1694 Reformat Phone Number Easy string
+1695 Maximum Erasure Value Medium array hash-table sliding-window
+1696 Jump Game VI Medium array dynamic-programming queue sliding-window heap-priority-queue monotonic-queue
+1697 Checking Existence of Edge Length Limited Paths Hard array union-find graph sorting
+1700 Number of Students Unable to Eat Lunch Easy array stack queue simulation
+1701 Average Waiting Time Medium array simulation
+1702 Maximum Binary String After Change Medium string greedy
+1703 Minimum Adjacent Swaps for K Consecutive Ones Hard array greedy sliding-window prefix-sum
+1704 Determine if String Halves Are Alike Easy string counting
+1705 Maximum Number of Eaten Apples Medium array greedy heap-priority-queue
+1706 Where Will the Ball Fall Medium array dynamic-programming depth-first-search matrix simulation
+1707 Maximum XOR With an Element From Array Hard array bit-manipulation trie
+1710 Maximum Units on a Truck Easy array greedy sorting
+1711 Count Good Meals Medium array hash-table
+1712 Ways to Split Array Into Three Subarrays Medium array two-pointers binary-search prefix-sum
+1713 Minimum Operations to Make a Subsequence Hard array hash-table binary-search greedy
+1716 Calculate Money in Leetcode Bank Easy math
+1717 Maximum Score From Removing Substrings Medium string stack greedy
+1718 Construct the Lexicographically Largest Valid Sequence Medium array backtracking
+1719 Number Of Ways To Reconstruct A Tree Hard tree graph
+1720 Decode XORed Array Easy array bit-manipulation
+1721 Swapping Nodes in a Linked List Medium linked-list two-pointers
+1722 Minimize Hamming Distance After Swap Operations Medium array depth-first-search union-find
+1723 Find Minimum Time to Finish All Jobs Hard array dynamic-programming backtracking bit-manipulation bitmask
+1725 Number Of Rectangles That Can Form The Largest Square Easy array
+1726 Tuple with Same Product Medium array hash-table
+1727 Largest Submatrix With Rearrangements Medium array greedy sorting matrix
+1728 Cat and Mouse II Hard array math dynamic-programming graph topological-sort memoization matrix game-theory
+1729 Find Followers Count Easy database
+1731 The Number of Employees Which Report to Each Employee Easy database
+1732 Find the Highest Altitude Easy array prefix-sum
+1733 Minimum Number of People to Teach Medium array greedy
+1734 Decode XORed Permutation Medium array bit-manipulation
+1735 Count Ways to Make Array With Product Hard array math dynamic-programming combinatorics number-theory
+1736 Latest Time by Replacing Hidden Digits Easy string greedy
+1737 Change Minimum Characters to Satisfy One of Three Conditions Medium hash-table string counting prefix-sum
+1738 Find Kth Largest XOR Coordinate Value Medium array divide-and-conquer bit-manipulation heap-priority-queue matrix prefix-sum quickselect
+1739 Building Boxes Hard math binary-search greedy
+1741 Find Total Time Spent by Each Employee Easy database
+1742 Maximum Number of Balls in a Box Easy hash-table math counting
+1743 Restore the Array From Adjacent Pairs Medium array hash-table
+1744 Can You Eat Your Favorite Candy on Your Favorite Day? Medium array prefix-sum
+1745 Palindrome Partitioning IV Hard string dynamic-programming
+1748 Sum of Unique Elements Easy array hash-table counting
+1749 Maximum Absolute Sum of Any Subarray Medium array dynamic-programming
+1750 Minimum Length of String After Deleting Similar Ends Medium two-pointers string
+1751 Maximum Number of Events That Can Be Attended II Hard array binary-search dynamic-programming sorting
+1752 Check if Array Is Sorted and Rotated Easy array
+1753 Maximum Score From Removing Stones Medium math greedy heap-priority-queue
+1754 Largest Merge Of Two Strings Medium two-pointers string greedy
+1755 Closest Subsequence Sum Hard array two-pointers dynamic-programming bit-manipulation bitmask
+1757 Recyclable and Low Fat Products Easy database
+1758 Minimum Changes To Make Alternating Binary String Easy string
+1759 Count Number of Homogenous Substrings Medium math string
+1760 Minimum Limit of Balls in a Bag Medium array binary-search
+1761 Minimum Degree of a Connected Trio in a Graph Hard graph
+1763 Longest Nice Substring Easy hash-table string divide-and-conquer bit-manipulation sliding-window
+1764 Form Array by Concatenating Subarrays of Another Array Medium array greedy string-matching
+1765 Map of Highest Peak Medium array breadth-first-search matrix
+1766 Tree of Coprimes Hard math tree depth-first-search breadth-first-search
+1768 Merge Strings Alternately Easy two-pointers string
+1769 Minimum Number of Operations to Move All Balls to Each Box Medium array string
+1770 Maximum Score from Performing Multiplication Operations Hard array dynamic-programming
+1771 Maximize Palindrome Length From Subsequences Hard string dynamic-programming
+1773 Count Items Matching a Rule Easy array string
+1774 Closest Dessert Cost Medium array dynamic-programming backtracking
+1775 Equal Sum Arrays With Minimum Number of Operations Medium array hash-table greedy counting
+1776 Car Fleet II Hard array math stack heap-priority-queue monotonic-stack
+1779 Find Nearest Point That Has the Same X or Y Coordinate Easy array
+1780 Check if Number is a Sum of Powers of Three Medium math
+1781 Sum of Beauty of All Substrings Medium hash-table string counting
+1782 Count Pairs Of Nodes Hard two-pointers binary-search graph
+1784 Check if Binary String Has at Most One Segment of Ones Easy string
+1785 Minimum Elements to Add to Form a Given Sum Medium array greedy
+1786 Number of Restricted Paths From First to Last Node Medium dynamic-programming graph topological-sort heap-priority-queue shortest-path
+1787 Make the XOR of All Segments Equal to Zero Hard array dynamic-programming bit-manipulation
+1789 Primary Department for Each Employee Easy database
+1790 Check if One String Swap Can Make Strings Equal Easy hash-table string counting
+1791 Find Center of Star Graph Easy graph
+1792 Maximum Average Pass Ratio Medium array greedy heap-priority-queue
+1793 Maximum Score of a Good Subarray Hard array two-pointers binary-search stack monotonic-stack
+1795 Rearrange Products Table Easy database
+1796 Second Largest Digit in a String Easy hash-table string
+1797 Design Authentication Manager Medium hash-table design
+1798 Maximum Number of Consecutive Values You Can Make Medium array greedy
+1799 Maximize Score After N Operations Hard array math dynamic-programming backtracking bit-manipulation number-theory bitmask
+1800 Maximum Ascending Subarray Sum Easy array
+1801 Number of Orders in the Backlog Medium array heap-priority-queue simulation
+1802 Maximum Value at a Given Index in a Bounded Array Medium binary-search greedy
+1803 Count Pairs With XOR in a Range Hard array bit-manipulation trie
+1805 Number of Different Integers in a String Easy hash-table string
+1806 Minimum Number of Operations to Reinitialize a Permutation Medium array math simulation
+1807 Evaluate the Bracket Pairs of a String Medium array hash-table string
+1808 Maximize Number of Nice Divisors Hard math recursion
+1812 Determine Color of a Chessboard Square Easy math string
+1813 Sentence Similarity III Medium array two-pointers string
+1814 Count Nice Pairs in an Array Medium array hash-table math counting
+1815 Maximum Number of Groups Getting Fresh Donuts Hard array dynamic-programming bit-manipulation memoization bitmask
+1816 Truncate Sentence Easy array string
+1817 Finding the Users Active Minutes Medium array hash-table
+1818 Minimum Absolute Sum Difference Medium array binary-search sorting ordered-set
+1819 Number of Different Subsequences GCDs Hard array math counting number-theory
+1822 Sign of the Product of an Array Easy array math
+1823 Find the Winner of the Circular Game Medium array math recursion queue simulation
+1824 Minimum Sideway Jumps Medium array dynamic-programming greedy
+1825 Finding MK Average Hard design queue heap-priority-queue data-stream ordered-set
+1827 Minimum Operations to Make the Array Increasing Easy array greedy
+1828 Queries on Number of Points Inside a Circle Medium array math geometry
+1829 Maximum XOR for Each Query Medium array bit-manipulation prefix-sum
+1830 Minimum Number of Operations to Make String Sorted Hard math string combinatorics
+1832 Check if the Sentence Is Pangram Easy hash-table string
+1833 Maximum Ice Cream Bars Medium array greedy sorting
+1834 Single-Threaded CPU Medium array sorting heap-priority-queue
+1835 Find XOR Sum of All Pairs Bitwise AND Hard array math bit-manipulation
+1837 Sum of Digits in Base K Easy math
+1838 Frequency of the Most Frequent Element Medium array binary-search greedy sliding-window sorting prefix-sum
+1839 Longest Substring Of All Vowels in Order Medium string sliding-window
+1840 Maximum Building Height Hard array math
+1844 Replace All Digits with Characters Easy string
+1845 Seat Reservation Manager Medium design heap-priority-queue
+1846 Maximum Element After Decreasing and Rearranging Medium array greedy sorting
+1847 Closest Room Hard array binary-search sorting
+1848 Minimum Distance to the Target Element Easy array
+1849 Splitting a String Into Descending Consecutive Values Medium string backtracking
+1850 Minimum Adjacent Swaps to Reach the Kth Smallest Number Medium two-pointers string greedy
+1851 Minimum Interval to Include Each Query Hard array binary-search line-sweep sorting heap-priority-queue
+1854 Maximum Population Year Easy array counting
+1855 Maximum Distance Between a Pair of Values Medium array two-pointers binary-search greedy
+1856 Maximum Subarray Min-Product Medium array stack monotonic-stack prefix-sum
+1857 Largest Color Value in a Directed Graph Hard hash-table dynamic-programming graph topological-sort memoization counting
+1859 Sorting the Sentence Easy string sorting
+1860 Incremental Memory Leak Medium simulation
+1861 Rotating the Box Medium array two-pointers matrix
+1862 Sum of Floored Pairs Hard array math binary-search prefix-sum
+1863 Sum of All Subset XOR Totals Easy array math backtracking bit-manipulation combinatorics
+1864 Minimum Number of Swaps to Make the Binary String Alternating Medium string greedy
+1865 Finding Pairs With a Certain Sum Medium array hash-table design
+1866 Number of Ways to Rearrange Sticks With K Sticks Visible Hard math dynamic-programming combinatorics
+1869 Longer Contiguous Segments of Ones than Zeros Easy string
+1870 Minimum Speed to Arrive on Time Medium array binary-search
+1871 Jump Game VII Medium two-pointers string prefix-sum
+1872 Stone Game VIII Hard array math dynamic-programming prefix-sum game-theory
+1873 Calculate Special Bonus Easy database
+1876 Substrings of Size Three with Distinct Characters Easy hash-table string sliding-window counting
+1877 Minimize Maximum Pair Sum in Array Medium array two-pointers greedy sorting
+1878 Get Biggest Three Rhombus Sums in a Grid Medium array math sorting heap-priority-queue matrix prefix-sum
+1879 Minimum XOR Sum of Two Arrays Hard array dynamic-programming bit-manipulation bitmask
+1880 Check if Word Equals Summation of Two Words Easy string
+1881 Maximum Value after Insertion Medium string greedy
+1882 Process Tasks Using Servers Medium array heap-priority-queue
+1883 Minimum Skips to Arrive at Meeting On Time Hard array dynamic-programming
+1884 Egg Drop With 2 Eggs and N Floors Medium math dynamic-programming
+1886 Determine Whether Matrix Can Be Obtained By Rotation Easy array matrix
+1887 Reduction Operations to Make the Array Elements Equal Medium array sorting
+1888 Minimum Number of Flips to Make the Binary String Alternating Medium string dynamic-programming greedy sliding-window
+1889 Minimum Space Wasted From Packaging Hard array binary-search sorting prefix-sum
+1890 The Latest Login in 2020 Easy database
+1893 Check if All the Integers in a Range Are Covered Easy array hash-table prefix-sum
+1894 Find the Student that Will Replace the Chalk Medium array binary-search simulation prefix-sum
+1895 Largest Magic Square Medium array matrix prefix-sum
+1896 Minimum Cost to Change the Final Value of Expression Hard math string dynamic-programming stack
+1897 Redistribute Characters to Make All Strings Equal Easy hash-table string counting
+1898 Maximum Number of Removable Characters Medium array string binary-search
+1899 Merge Triplets to Form Target Triplet Medium array greedy
+1900 The Earliest and Latest Rounds Where Players Compete Hard dynamic-programming memoization
+1901 Find a Peak Element II Medium array binary-search matrix
+1903 Largest Odd Number in String Easy math string greedy
+1904 The Number of Full Rounds You Have Played Medium math string
+1905 Count Sub Islands Medium array depth-first-search breadth-first-search union-find matrix
+1906 Minimum Absolute Difference Queries Medium array hash-table
+1907 Count Salary Categories Medium database
+1909 Remove One Element to Make the Array Strictly Increasing Easy array
+1910 Remove All Occurrences of a Substring Medium string
+1911 Maximum Alternating Subsequence Sum Medium array dynamic-programming
+1912 Design Movie Rental System Hard array hash-table design heap-priority-queue ordered-set
+1913 Maximum Product Difference Between Two Pairs Easy array sorting
+1914 Cyclically Rotating a Grid Medium array matrix simulation
+1915 Number of Wonderful Substrings Medium hash-table string bit-manipulation prefix-sum
+1916 Count Ways to Build Rooms in an Ant Colony Hard math dynamic-programming tree graph topological-sort combinatorics
+1920 Build Array from Permutation Easy array simulation
+1921 Eliminate Maximum Number of Monsters Medium array greedy sorting
+1922 Count Good Numbers Medium math recursion
+1923 Longest Common Subpath Hard array binary-search rolling-hash suffix-array hash-function
+1925 Count Square Sum Triples Easy math enumeration
+1926 Nearest Exit from Entrance in Maze Medium array breadth-first-search matrix
+1927 Sum Game Medium math greedy game-theory
+1928 Minimum Cost to Reach Destination in Time Hard dynamic-programming graph
+1929 Concatenation of Array Easy array
+1930 Unique Length-3 Palindromic Subsequences Medium hash-table string prefix-sum
+1931 Painting a Grid With Three Different Colors Hard dynamic-programming
+1932 Merge BSTs to Create Single BST Hard hash-table binary-search tree depth-first-search binary-tree
+1934 Confirmation Rate Medium database
+1935 Maximum Number of Words You Can Type Easy hash-table string
+1936 Add Minimum Number of Rungs Medium array greedy
+1937 Maximum Number of Points with Cost Medium array dynamic-programming
+1938 Maximum Genetic Difference Query Hard array bit-manipulation trie
+1941 Check if All Characters Have Equal Number of Occurrences Easy hash-table string counting
+1942 The Number of the Smallest Unoccupied Chair Medium array heap-priority-queue ordered-set
+1943 Describe the Painting Medium array prefix-sum
+1944 Number of Visible People in a Queue Hard array stack monotonic-stack
+1945 Sum of Digits of String After Convert Easy string simulation
+1946 Largest Number After Mutating Substring Medium array string greedy
+1947 Maximum Compatibility Score Sum Medium array dynamic-programming backtracking bit-manipulation bitmask
+1948 Delete Duplicate Folders in System Hard array hash-table string trie hash-function
+1952 Three Divisors Easy math
+1953 Maximum Number of Weeks for Which You Can Work Medium array greedy
+1954 Minimum Garden Perimeter to Collect Enough Apples Medium math binary-search
+1955 Count Number of Special Subsequences Hard array dynamic-programming
+1957 Delete Characters to Make Fancy String Easy string
+1958 Check if Move is Legal Medium array matrix enumeration
+1959 Minimum Total Space Wasted With K Resizing Operations Medium array dynamic-programming
+1960 Maximum Product of the Length of Two Palindromic Substrings Hard string rolling-hash hash-function
+1961 Check If String Is a Prefix of Array Easy array string
+1962 Remove Stones to Minimize the Total Medium array heap-priority-queue
+1963 Minimum Number of Swaps to Make the String Balanced Medium two-pointers string stack greedy
+1964 Find the Longest Valid Obstacle Course at Each Position Hard array binary-search binary-indexed-tree
+1965 Employees With Missing Information Easy database
+1967 Number of Strings That Appear as Substrings in Word Easy string
+1968 Array With Elements Not Equal to Average of Neighbors Medium array greedy sorting
+1969 Minimum Non-Zero Product of the Array Elements Medium math greedy recursion
+1970 Last Day Where You Can Still Cross Hard array binary-search depth-first-search breadth-first-search union-find matrix
+1971 Find if Path Exists in Graph Easy depth-first-search breadth-first-search union-find graph
+1974 Minimum Time to Type Word Using Special Typewriter Easy string greedy
+1975 Maximum Matrix Sum Medium array greedy matrix
+1976 Number of Ways to Arrive at Destination Medium dynamic-programming graph topological-sort shortest-path
+1977 Number of Ways to Separate Numbers Hard string dynamic-programming suffix-array
+1978 Employees Whose Manager Left the Company Easy database
+1979 Find Greatest Common Divisor of Array Easy array math number-theory
+1980 Find Unique Binary String Medium array string backtracking
+1981 Minimize the Difference Between Target and Chosen Elements Medium array dynamic-programming matrix
+1982 Find Array Given Subset Sums Hard array divide-and-conquer
+1984 Minimum Difference Between Highest and Lowest of K Scores Easy array sliding-window sorting
+1985 Find the Kth Largest Integer in the Array Medium array string divide-and-conquer sorting heap-priority-queue quickselect
+1986 Minimum Number of Work Sessions to Finish the Tasks Medium array dynamic-programming backtracking bit-manipulation bitmask
+1987 Number of Unique Good Subsequences Hard string dynamic-programming
+1991 Find the Middle Index in Array Easy array prefix-sum
+1992 Find All Groups of Farmland Medium array depth-first-search breadth-first-search matrix
+1993 Operations on Tree Medium hash-table tree depth-first-search breadth-first-search design
+1994 The Number of Good Subsets Hard array math dynamic-programming bit-manipulation bitmask
+1995 Count Special Quadruplets Easy array enumeration
+1996 The Number of Weak Characters in the Game Medium array stack greedy sorting monotonic-stack
+1997 First Day Where You Have Been in All the Rooms Medium array dynamic-programming
+1998 GCD Sort of an Array Hard array math union-find sorting
+2000 Reverse Prefix of Word Easy two-pointers string
+2001 Number of Pairs of Interchangeable Rectangles Medium array hash-table math counting number-theory
+2002 Maximum Product of the Length of Two Palindromic Subsequences Medium string dynamic-programming backtracking bit-manipulation bitmask
+2003 Smallest Missing Genetic Value in Each Subtree Hard dynamic-programming tree depth-first-search union-find
+2006 Count Number of Pairs With Absolute Difference K Easy array hash-table counting
+2007 Find Original Array From Doubled Array Medium array hash-table greedy sorting
+2008 Maximum Earnings From Taxi Medium array binary-search dynamic-programming sorting
+2009 Minimum Number of Operations to Make Array Continuous Hard array binary-search
+2011 Final Value of Variable After Performing Operations Easy array string simulation
+2012 Sum of Beauty in the Array Medium array
+2013 Detect Squares Medium array hash-table design counting
+2014 Longest Subsequence Repeated k Times Hard string backtracking greedy counting enumeration
+2016 Maximum Difference Between Increasing Elements Easy array
+2017 Grid Game Medium array matrix prefix-sum
+2018 Check if Word Can Be Placed In Crossword Medium array matrix enumeration
+2019 The Score of Students Solving Math Expression Hard array math string dynamic-programming stack memoization
+2022 Convert 1D Array Into 2D Array Easy array matrix simulation
+2023 Number of Pairs of Strings With Concatenation Equal to Target Medium array string
+2024 Maximize the Confusion of an Exam Medium string binary-search sliding-window prefix-sum
+2025 Maximum Number of Ways to Partition an Array Hard array hash-table counting enumeration prefix-sum
+2027 Minimum Moves to Convert String Easy string greedy
+2028 Find Missing Observations Medium array math simulation
+2029 Stone Game IX Medium array math greedy counting game-theory
+2030 Smallest K-Length Subsequence With Occurrences of a Letter Hard string stack greedy monotonic-stack
+2032 Two Out of Three Easy array hash-table
+2033 Minimum Operations to Make a Uni-Value Grid Medium array math sorting matrix
+2034 Stock Price Fluctuation  Medium hash-table design heap-priority-queue data-stream ordered-set
+2035 Partition Array Into Two Arrays to Minimize Sum Difference Hard array two-pointers binary-search dynamic-programming bit-manipulation ordered-set bitmask
+2037 Minimum Number of Moves to Seat Everyone Easy array sorting
+2038 Remove Colored Pieces if Both Neighbors are the Same Color Medium math string greedy game-theory
+2039 The Time When the Network Becomes Idle Medium array breadth-first-search graph
+2040 Kth Smallest Product of Two Sorted Arrays Hard array binary-search
+2042 Check if Numbers Are Ascending in a Sentence Easy string
+2043 Simple Bank System Medium array hash-table design simulation
+2044 Count Number of Maximum Bitwise-OR Subsets Medium array backtracking bit-manipulation
+2045 Second Minimum Time to Reach Destination Hard breadth-first-search graph shortest-path
+2047 Number of Valid Words in a Sentence Easy string
+2048 Next Greater Numerically Balanced Number Medium math backtracking enumeration
+2049 Count Nodes With the Highest Score Medium array tree depth-first-search binary-tree
+2050 Parallel Courses III Hard array dynamic-programming graph topological-sort
+2053 Kth Distinct String in an Array Easy array hash-table string counting
+2054 Two Best Non-Overlapping Events Medium array binary-search dynamic-programming sorting heap-priority-queue
+2055 Plates Between Candles Medium array string binary-search prefix-sum
+2056 Number of Valid Move Combinations On Chessboard Hard array string backtracking simulation
+2057 Smallest Index With Equal Value Easy array
+2058 Find the Minimum and Maximum Number of Nodes Between Critical Points Medium linked-list
+2059 Minimum Operations to Convert Number Medium array breadth-first-search
+2060 Check if an Original String Exists Given Two Encoded Strings Hard string dynamic-programming
+2062 Count Vowel Substrings of a String Easy hash-table string
+2063 Vowels of All Substrings Medium math string dynamic-programming combinatorics
+2064 Minimized Maximum of Products Distributed to Any Store Medium array binary-search
+2065 Maximum Path Quality of a Graph Hard array backtracking graph
+2068 Check Whether Two Strings are Almost Equivalent Easy hash-table string counting
+2069 Walking Robot Simulation II Medium design simulation
+2070 Most Beautiful Item for Each Query Medium array binary-search sorting
+2071 Maximum Number of Tasks You Can Assign Hard array binary-search greedy queue sorting monotonic-queue
+2073 Time Needed to Buy Tickets Easy array queue simulation
+2074 Reverse Nodes in Even Length Groups Medium linked-list
+2075 Decode the Slanted Ciphertext Medium string simulation
+2076 Process Restricted Friend Requests Hard union-find graph
+2078 Two Furthest Houses With Different Colors Easy array greedy
+2079 Watering Plants Medium array
+2080 Range Frequency Queries Medium array hash-table binary-search design segment-tree
+2081 Sum of k-Mirror Numbers Hard math enumeration
+2085 Count Common Words With One Occurrence Easy array hash-table string counting
+2086 Minimum Number of Food Buckets to Feed the Hamsters Medium string dynamic-programming greedy
+2087 Minimum Cost Homecoming of a Robot in a Grid Medium array greedy matrix
+2088 Count Fertile Pyramids in a Land Hard array dynamic-programming matrix
+2089 Find Target Indices After Sorting Array Easy array binary-search sorting
+2090 K Radius Subarray Averages Medium array sliding-window
+2091 Removing Minimum and Maximum From Array Medium array greedy
+2092 Find All People With Secret Hard depth-first-search breadth-first-search union-find graph sorting
+2094 Finding 3-Digit Even Numbers Easy array hash-table sorting enumeration
+2095 Delete the Middle Node of a Linked List Medium linked-list two-pointers
+2096 Step-By-Step Directions From a Binary Tree Node to Another Medium string tree depth-first-search binary-tree
+2097 Valid Arrangement of Pairs Hard depth-first-search graph eulerian-circuit
+2099 Find Subsequence of Length K With the Largest Sum Easy array hash-table sorting heap-priority-queue
+2100 Find Good Days to Rob the Bank Medium array dynamic-programming prefix-sum
+2101 Detonate the Maximum Bombs Medium array math depth-first-search breadth-first-search graph geometry
+2102 Sequentially Ordinal Rank Tracker Hard design heap-priority-queue data-stream ordered-set
+2103 Rings and Rods Easy hash-table string
+2104 Sum of Subarray Ranges Medium array stack monotonic-stack
+2105 Watering Plants II Medium array two-pointers simulation
+2106 Maximum Fruits Harvested After at Most K Steps Hard array binary-search sliding-window prefix-sum
+2108 Find First Palindromic String in the Array Easy array two-pointers string
+2109 Adding Spaces to a String Medium array string simulation
+2110 Number of Smooth Descent Periods of a Stock Medium array math dynamic-programming
+2111 Minimum Operations to Make the Array K-Increasing Hard array binary-search
+2114 Maximum Number of Words Found in Sentences Easy array string
+2115 Find All Possible Recipes from Given Supplies Medium array hash-table string graph topological-sort
+2116 Check if a Parentheses String Can Be Valid Medium string stack greedy
+2117 Abbreviating the Product of a Range Hard math
+2119 A Number After a Double Reversal Easy math
+2120 Execution of All Suffix Instructions Staying in a Grid Medium string simulation
+2121 Intervals Between Identical Elements Medium array hash-table prefix-sum
+2122 Recover the Original Array Hard array hash-table sorting enumeration
+2124 Check if All A's Appears Before All B's Easy string
+2125 Number of Laser Beams in a Bank Medium array math string matrix
+2126 Destroying Asteroids Medium array greedy sorting
+2127 Maximum Employees to Be Invited to a Meeting Hard depth-first-search graph topological-sort
+2129 Capitalize the Title Easy string
+2130 Maximum Twin Sum of a Linked List Medium linked-list two-pointers stack
+2131 Longest Palindrome by Concatenating Two Letter Words Medium array hash-table string greedy counting
+2132 Stamping the Grid Hard array greedy matrix prefix-sum
+2133 Check if Every Row and Column Contains All Numbers Easy array hash-table matrix
+2134 Minimum Swaps to Group All 1's Together II Medium array sliding-window
+2135 Count Words Obtained After Adding a Letter Medium array hash-table string bit-manipulation sorting
+2136 Earliest Possible Day of Full Bloom Hard array greedy sorting
+2138 Divide a String Into Groups of Size k Easy string simulation
+2139 Minimum Moves to Reach Target Score Medium math greedy
+2140 Solving Questions With Brainpower Medium array dynamic-programming
+2141 Maximum Running Time of N Computers Hard array binary-search greedy sorting
+2144 Minimum Cost of Buying Candies With Discount Easy array greedy sorting
+2145 Count the Hidden Sequences Medium array prefix-sum
+2146 K Highest Ranked Items Within a Price Range Medium array breadth-first-search sorting heap-priority-queue matrix
+2147 Number of Ways to Divide a Long Corridor Hard math string dynamic-programming
+2148 Count Elements With Strictly Smaller and Greater Elements  Easy array sorting
+2149 Rearrange Array Elements by Sign Medium array two-pointers simulation
+2150 Find All Lonely Numbers in the Array Medium array hash-table counting
+2151 Maximum Good People Based on Statements Hard array backtracking bit-manipulation enumeration
+2154 Keep Multiplying Found Values by Two Easy array hash-table sorting simulation
+2155 All Divisions With the Highest Score of a Binary Array Medium array
+2156 Find Substring With Given Hash Value Hard string sliding-window rolling-hash hash-function
+2157 Groups of Strings Hard string bit-manipulation union-find
+2160 Minimum Sum of Four Digit Number After Splitting Digits Easy math greedy sorting
+2161 Partition Array According to Given Pivot Medium array two-pointers simulation
+2162 Minimum Cost to Set Cooking Time Medium math enumeration
+2163 Minimum Difference in Sums After Removal of Elements Hard array dynamic-programming heap-priority-queue
+2164 Sort Even and Odd Indices Independently Easy array sorting
+2165 Smallest Value of the Rearranged Number Medium math sorting
+2166 Design Bitset Medium array hash-table design
+2167 Minimum Time to Remove All Cars Containing Illegal Goods Hard string dynamic-programming
+2169 Count Operations to Obtain Zero Easy math simulation
+2170 Minimum Operations to Make the Array Alternating Medium array hash-table greedy counting
+2171 Removing Minimum Number of Magic Beans Medium array sorting prefix-sum
+2172 Maximum AND Sum of Array Hard array dynamic-programming bit-manipulation bitmask
+2176 Count Equal and Divisible Pairs in an Array Easy array
+2177 Find Three Consecutive Integers That Sum to a Given Number Medium math simulation
+2178 Maximum Split of Positive Even Integers Medium math backtracking greedy
+2179 Count Good Triplets in an Array Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+2180 Count Integers With Even Digit Sum Easy math simulation
+2181 Merge Nodes in Between Zeros Medium linked-list simulation
+2182 Construct String With Repeat Limit Medium string greedy heap-priority-queue counting
+2183 Count Array Pairs Divisible by K Hard array math number-theory
+2185 Counting Words With a Given Prefix Easy array string
+2186 Minimum Number of Steps to Make Two Strings Anagram II Medium hash-table string counting
+2187 Minimum Time to Complete Trips Medium array binary-search
+2188 Minimum Time to Finish the Race Hard array dynamic-programming
+2190 Most Frequent Number Following Key In an Array Easy array hash-table counting
+2191 Sort the Jumbled Numbers Medium array sorting
+2192 All Ancestors of a Node in a Directed Acyclic Graph Medium depth-first-search breadth-first-search graph topological-sort
+2193 Minimum Number of Moves to Make Palindrome Hard two-pointers string greedy binary-indexed-tree
+2194 Cells in a Range on an Excel Sheet Easy string
+2195 Append K Integers With Minimal Sum Medium array math greedy sorting
+2196 Create Binary Tree From Descriptions Medium array hash-table tree depth-first-search breadth-first-search binary-tree
+2197 Replace Non-Coprime Numbers in Array Hard array math stack number-theory
+2200 Find All K-Distant Indices in an Array Easy array
+2201 Count Artifacts That Can Be Extracted Medium array hash-table simulation
+2202 Maximize the Topmost Element After K Moves Medium array greedy
+2203 Minimum Weighted Subgraph With the Required Paths Hard graph shortest-path
+2206 Divide Array Into Equal Pairs Easy array hash-table bit-manipulation counting
+2207 Maximize Number of Subsequences in a String Medium string greedy prefix-sum
+2208 Minimum Operations to Halve Array Sum Medium array greedy heap-priority-queue
+2209 Minimum White Tiles After Covering With Carpets Hard string dynamic-programming prefix-sum
+2210 Count Hills and Valleys in an Array Easy array
+2211 Count Collisions on a Road Medium string stack
+2212 Maximum Points in an Archery Competition Medium array bit-manipulation recursion enumeration
+2213 Longest Substring of One Repeating Character Hard array string segment-tree ordered-set
+2215 Find the Difference of Two Arrays Easy array hash-table
+2216 Minimum Deletions to Make Array Beautiful Medium array stack greedy
+2217 Find Palindrome With Fixed Length Medium array math
+2218 Maximum Value of K Coins From Piles Hard array dynamic-programming prefix-sum
+2220 Minimum Bit Flips to Convert Number Easy bit-manipulation
+2221 Find Triangular Sum of an Array Medium array math simulation combinatorics
+2222 Number of Ways to Select Buildings Medium string dynamic-programming prefix-sum
+2223 Sum of Scores of Built Strings Hard string binary-search rolling-hash suffix-array string-matching hash-function
+2224 Minimum Number of Operations to Convert Time Easy string greedy
+2225 Find Players With Zero or One Losses Medium array hash-table sorting counting
+2226 Maximum Candies Allocated to K Children Medium array binary-search
+2227 Encrypt and Decrypt Strings Hard array hash-table string design trie
+2231 Largest Number After Digit Swaps by Parity Easy sorting heap-priority-queue
+2232 Minimize Result by Adding Parentheses to Expression Medium string enumeration
+2233 Maximum Product After K Increments Medium array greedy heap-priority-queue
+2234 Maximum Total Beauty of the Gardens Hard array two-pointers binary-search greedy sorting
+2235 Add Two Integers Easy math
+2236 Root Equals Sum of Children Easy tree binary-tree
+2239 Find Closest Number to Zero Easy array
+2240 Number of Ways to Buy Pens and Pencils Medium math enumeration
+2241 Design an ATM Machine Medium array greedy design
+2242 Maximum Score of a Node Sequence Hard array graph sorting enumeration
+2243 Calculate Digit Sum of a String Easy string simulation
+2244 Minimum Rounds to Complete All Tasks Medium array hash-table greedy counting
+2245 Maximum Trailing Zeros in a Cornered Path Medium array matrix prefix-sum
+2246 Longest Path With Different Adjacent Characters Hard array string tree depth-first-search graph topological-sort
+2248 Intersection of Multiple Arrays Easy array hash-table counting
+2249 Count Lattice Points Inside a Circle Medium array hash-table math geometry enumeration
+2250 Count Number of Rectangles Containing Each Point Medium array binary-search binary-indexed-tree sorting
+2251 Number of Flowers in Full Bloom Hard array hash-table binary-search sorting prefix-sum ordered-set
+2255 Count Prefixes of a Given String Easy array string
+2256 Minimum Average Difference Medium array prefix-sum
+2257 Count Unguarded Cells in the Grid Medium array matrix simulation
+2258 Escape the Spreading Fire Hard array binary-search breadth-first-search matrix
+2259 Remove Digit From Number to Maximize Result Easy string greedy enumeration
+2260 Minimum Consecutive Cards to Pick Up Medium array hash-table sliding-window
+2261 K Divisible Elements Subarrays Medium array hash-table trie rolling-hash hash-function enumeration
+2262 Total Appeal of A String Hard hash-table string dynamic-programming
+2264 Largest 3-Same-Digit Number in String Easy string
+2265 Count Nodes Equal to Average of Subtree Medium tree depth-first-search binary-tree
+2266 Count Number of Texts Medium hash-table math string dynamic-programming
+2267  Check if There Is a Valid Parentheses String Path Hard array dynamic-programming matrix
+2269 Find the K-Beauty of a Number Easy math string sliding-window
+2270 Number of Ways to Split Array Medium array prefix-sum
+2271 Maximum White Tiles Covered by a Carpet Medium array binary-search greedy sorting prefix-sum
+2272 Substring With Largest Variance Hard array dynamic-programming
+2273 Find Resultant Array After Removing Anagrams Easy array hash-table string sorting
+2274 Maximum Consecutive Floors Without Special Floors Medium array sorting
+2275 Largest Combination With Bitwise AND Greater Than Zero Medium array hash-table bit-manipulation counting
+2276 Count Integers in Intervals Hard design segment-tree ordered-set
+2278 Percentage of Letter in String Easy string
+2279 Maximum Bags With Full Capacity of Rocks Medium array greedy sorting
+2280 Minimum Lines to Represent a Line Chart Medium array math geometry sorting number-theory
+2281 Sum of Total Strength of Wizards Hard array stack monotonic-stack prefix-sum
+2283 Check if Number Has Equal Digit Count and Digit Value Easy hash-table string counting
+2284 Sender With Largest Word Count Medium array hash-table string counting
+2285 Maximum Total Importance of Roads Medium greedy graph sorting heap-priority-queue
+2286 Booking Concert Tickets in Groups Hard binary-search design binary-indexed-tree segment-tree
+2287 Rearrange Characters to Make Target String Easy hash-table string counting
+2288 Apply Discount to Prices Medium string
+2289 Steps to Make Array Non-decreasing Medium array linked-list stack monotonic-stack
+2290 Minimum Obstacle Removal to Reach Corner Hard array breadth-first-search graph heap-priority-queue matrix shortest-path
+2293 Min Max Game Easy array simulation
+2294 Partition Array Such That Maximum Difference Is K Medium array greedy sorting
+2295 Replace Elements in an Array Medium array hash-table simulation
+2296 Design a Text Editor Hard linked-list string stack design simulation doubly-linked-list
+2299 Strong Password Checker II Easy string
+2300 Successful Pairs of Spells and Potions Medium array two-pointers binary-search sorting
+2301 Match Substring After Replacement Hard array hash-table string string-matching
+2302 Count Subarrays With Score Less Than K Hard array binary-search sliding-window prefix-sum
+2303 Calculate Amount Paid in Taxes Easy array simulation
+2304 Minimum Path Cost in a Grid Medium array dynamic-programming matrix
+2305 Fair Distribution of Cookies Medium array dynamic-programming backtracking bit-manipulation bitmask
+2306 Naming a Company Hard array hash-table string bit-manipulation enumeration
+2309 Greatest English Letter in Upper and Lower Case Easy hash-table string enumeration
+2310 Sum of Numbers With Units Digit K Medium math dynamic-programming greedy enumeration
+2311 Longest Binary Subsequence Less Than or Equal to K Medium string dynamic-programming greedy memoization
+2312 Selling Pieces of Wood Hard array dynamic-programming memoization
+2315 Count Asterisks Easy string
+2316 Count Unreachable Pairs of Nodes in an Undirected Graph Medium depth-first-search breadth-first-search union-find graph
+2317 Maximum XOR After Operations  Medium array math bit-manipulation
+2318 Number of Distinct Roll Sequences Hard dynamic-programming memoization
+2319 Check if Matrix Is X-Matrix Easy array matrix
+2320 Count Number of Ways to Place Houses Medium dynamic-programming
+2321 Maximum Score Of Spliced Array Hard array dynamic-programming
+2322 Minimum Score After Removals on a Tree Hard array bit-manipulation tree depth-first-search
+2325 Decode the Message Easy hash-table string
+2326 Spiral Matrix IV Medium array linked-list matrix simulation
+2327 Number of People Aware of a Secret Medium dynamic-programming queue simulation
+2328 Number of Increasing Paths in a Grid Hard array dynamic-programming depth-first-search breadth-first-search graph topological-sort memoization matrix
+2331 Evaluate Boolean Binary Tree Easy tree depth-first-search binary-tree
+2332 The Latest Time to Catch a Bus Medium array two-pointers binary-search sorting
+2333 Minimum Sum of Squared Difference Medium array math sorting heap-priority-queue
+2334 Subarray With Elements Greater Than Varying Threshold Hard array stack union-find monotonic-stack
+2335 Minimum Amount of Time to Fill Cups Easy array greedy sorting heap-priority-queue
+2336 Smallest Number in Infinite Set Medium hash-table design heap-priority-queue
+2337 Move Pieces to Obtain a String Medium two-pointers string
+2338 Count the Number of Ideal Arrays Hard math dynamic-programming combinatorics number-theory
+2341 Maximum Number of Pairs in Array Easy array hash-table counting
+2342 Max Sum of a Pair With Equal Sum of Digits Medium array hash-table sorting heap-priority-queue
+2343 Query Kth Smallest Trimmed Number Medium array string divide-and-conquer sorting heap-priority-queue radix-sort quickselect
+2344 Minimum Deletions to Make Array Divisible Hard array math sorting heap-priority-queue number-theory
+2347 Best Poker Hand Easy array hash-table counting
+2348 Number of Zero-Filled Subarrays Medium array math
+2349 Design a Number Container System Medium hash-table design heap-priority-queue ordered-set
+2350 Shortest Impossible Sequence of Rolls Hard array hash-table greedy
+2351 First Letter to Appear Twice Easy hash-table string counting
+2352 Equal Row and Column Pairs Medium array hash-table matrix simulation
+2353 Design a Food Rating System Medium hash-table design heap-priority-queue ordered-set
+2354 Number of Excellent Pairs Hard array hash-table binary-search bit-manipulation
+2356 Number of Unique Subjects Taught by Each Teacher Easy database
+2357 Make Array Zero by Subtracting Equal Amounts Easy array hash-table greedy sorting heap-priority-queue simulation
+2358 Maximum Number of Groups Entering a Competition Medium array math binary-search greedy
+2359 Find Closest Node to Given Two Nodes Medium depth-first-search graph
+2360 Longest Cycle in a Graph Hard depth-first-search graph topological-sort
+2363 Merge Similar Items Easy array hash-table sorting ordered-set
+2364 Count Number of Bad Pairs Medium array hash-table
+2365 Task Scheduler II Medium array hash-table simulation
+2366 Minimum Replacements to Sort the Array Hard array math greedy
+2367 Number of Arithmetic Triplets Easy array hash-table two-pointers enumeration
+2368 Reachable Nodes With Restrictions Medium array hash-table tree depth-first-search breadth-first-search graph
+2369 Check if There is a Valid Partition For The Array Medium array dynamic-programming
+2370 Longest Ideal Subsequence Medium hash-table string dynamic-programming
+2373 Largest Local Values in a Matrix Easy array matrix
+2374 Node With Highest Edge Score Medium hash-table graph
+2375 Construct Smallest Number From DI String Medium string backtracking stack greedy
+2376 Count Special Integers Hard math dynamic-programming
+2379 Minimum Recolors to Get K Consecutive Black Blocks Easy string sliding-window
+2380 Time Needed to Rearrange a Binary String Medium string dynamic-programming simulation
+2381 Shifting Letters II Medium array string prefix-sum
+2382 Maximum Segment Sum After Removals Hard array union-find prefix-sum ordered-set
+2383 Minimum Hours of Training to Win a Competition Easy array greedy
+2384 Largest Palindromic Number Medium hash-table string greedy
+2385 Amount of Time for Binary Tree to Be Infected Medium tree depth-first-search breadth-first-search binary-tree
+2386 Find the K-Sum of an Array Hard array sorting heap-priority-queue
+2389 Longest Subsequence With Limited Sum Easy array binary-search greedy sorting prefix-sum
+2390 Removing Stars From a String Medium string stack simulation
+2391 Minimum Amount of Time to Collect Garbage Medium array string prefix-sum
+2392 Build a Matrix With Conditions Hard array graph topological-sort matrix
+2395 Find Subarrays With Equal Sum Easy array hash-table
+2396 Strictly Palindromic Number Medium math two-pointers brainteaser
+2397 Maximum Rows Covered by Columns Medium array backtracking bit-manipulation matrix enumeration
+2398 Maximum Number of Robots Within Budget Hard array binary-search queue sliding-window heap-priority-queue prefix-sum
+2399 Check Distances Between Same Letters Easy array hash-table string
+2400 Number of Ways to Reach a Position After Exactly k Steps Medium math dynamic-programming combinatorics
+2401 Longest Nice Subarray Medium array bit-manipulation sliding-window
+2402 Meeting Rooms III Hard array sorting heap-priority-queue
+2404 Most Frequent Even Element Easy array hash-table counting
+2405 Optimal Partition of String Medium hash-table string greedy
+2406 Divide Intervals Into Minimum Number of Groups Medium array two-pointers greedy sorting heap-priority-queue prefix-sum
+2407 Longest Increasing Subsequence II Hard array divide-and-conquer dynamic-programming binary-indexed-tree segment-tree queue monotonic-queue
+2409 Count Days Spent Together Easy math string
+2410 Maximum Matching of Players With Trainers Medium array two-pointers greedy sorting
+2411 Smallest Subarrays With Maximum Bitwise OR Medium array binary-search bit-manipulation sliding-window
+2412 Minimum Money Required Before Transactions Hard array greedy sorting
+2413 Smallest Even Multiple Easy math number-theory
+2414 Length of the Longest Alphabetical Continuous Substring Medium string
+2415 Reverse Odd Levels of Binary Tree Medium tree depth-first-search breadth-first-search binary-tree
+2416 Sum of Prefix Scores of Strings Hard array string trie counting
+2418 Sort the People Easy array hash-table string sorting
+2419 Longest Subarray With Maximum Bitwise AND Medium array bit-manipulation brainteaser
+2420 Find All Good Indices Medium array dynamic-programming prefix-sum
+2421 Number of Good Paths Hard array tree union-find graph
+2423 Remove Letter To Equalize Frequency Easy hash-table string counting
+2424 Longest Uploaded Prefix Medium binary-search union-find design binary-indexed-tree segment-tree heap-priority-queue ordered-set
+2425 Bitwise XOR of All Pairings Medium array bit-manipulation brainteaser
+2426 Number of Pairs Satisfying Inequality Hard array binary-search divide-and-conquer binary-indexed-tree segment-tree merge-sort ordered-set
+2427 Number of Common Factors Easy math enumeration number-theory
+2428 Maximum Sum of an Hourglass Medium array matrix prefix-sum
+2429 Minimize XOR Medium greedy bit-manipulation
+2430 Maximum Deletions on a String Hard string dynamic-programming rolling-hash string-matching hash-function
+2432 The Employee That Worked on the Longest Task Easy array
+2433 Find The Original Array of Prefix Xor Medium array bit-manipulation
+2434 Using a Robot to Print the Lexicographically Smallest String Medium hash-table string stack greedy
+2435 Paths in Matrix Whose Sum Is Divisible by K Hard array dynamic-programming matrix
+2437 Number of Valid Clock Times Easy string enumeration
+2438 Range Product Queries of Powers Medium array bit-manipulation prefix-sum
+2439 Minimize Maximum of Array Medium array binary-search dynamic-programming greedy prefix-sum
+2440 Create Components With Same Value Hard array math tree depth-first-search enumeration
+2441 Largest Positive Integer That Exists With Its Negative Easy array hash-table two-pointers sorting
+2442 Count Number of Distinct Integers After Reverse Operations Medium array hash-table math
+2443 Sum of Number and Its Reverse Medium math enumeration
+2444 Count Subarrays With Fixed Bounds Hard array queue sliding-window monotonic-queue
+2446 Determine if Two Events Have Conflict Easy array string
+2447 Number of Subarrays With GCD Equal to K Medium array math number-theory
+2448 Minimum Cost to Make Array Equal Hard array binary-search greedy sorting prefix-sum
+2449 Minimum Number of Operations to Make Arrays Similar Hard array greedy sorting
+2451 Odd String Difference Easy hash-table math string
+2452 Words Within Two Edits of Dictionary Medium array string
+2453 Destroy Sequential Targets Medium array hash-table counting
+2454 Next Greater Element IV Hard array binary-search stack sorting heap-priority-queue monotonic-stack
+2455 Average Value of Even Numbers That Are Divisible by Three Easy array math
+2456 Most Popular Video Creator Medium array hash-table string sorting heap-priority-queue
+2457 Minimum Addition to Make Integer Beautiful Medium math greedy
+2458 Height of Binary Tree After Subtree Removal Queries Hard array tree depth-first-search breadth-first-search binary-tree
+2460 Apply Operations to an Array Easy array simulation
+2461 Maximum Sum of Distinct Subarrays With Length K Medium array hash-table sliding-window
+2462 Total Cost to Hire K Workers Medium array two-pointers heap-priority-queue simulation
+2463 Minimum Total Distance Traveled Hard array dynamic-programming sorting
+2465 Number of Distinct Averages Easy array hash-table two-pointers sorting
+2466 Count Ways To Build Good Strings Medium dynamic-programming
+2467 Most Profitable Path in a Tree Medium array tree depth-first-search breadth-first-search graph
+2468 Split Message Based on Limit Hard string binary-search
+2469 Convert the Temperature Easy math
+2470 Number of Subarrays With LCM Equal to K Medium array math number-theory
+2471 Minimum Number of Operations to Sort a Binary Tree by Level Medium tree breadth-first-search binary-tree
+2472 Maximum Number of Non-overlapping Palindrome Substrings Hard string dynamic-programming
+2475 Number of Unequal Triplets in Array Easy array hash-table
+2476 Closest Nodes Queries in a Binary Search Tree Medium array binary-search tree depth-first-search binary-tree
+2477 Minimum Fuel Cost to Report to the Capital Medium tree depth-first-search breadth-first-search graph
+2478 Number of Beautiful Partitions Hard string dynamic-programming
+2481 Minimum Cuts to Divide a Circle Easy math geometry
+2482 Difference Between Ones and Zeros in Row and Column Medium array matrix simulation
+2483 Minimum Penalty for a Shop Medium string prefix-sum
+2484 Count Palindromic Subsequences Hard string dynamic-programming
+2485 Find the Pivot Integer Easy math prefix-sum
+2486 Append Characters to String to Make Subsequence Medium two-pointers string greedy
+2487 Remove Nodes From Linked List Medium linked-list stack recursion monotonic-stack
+2488 Count Subarrays With Median K Hard array hash-table prefix-sum
+2490 Circular Sentence Easy string
+2491 Divide Players Into Teams of Equal Skill Medium array hash-table two-pointers sorting
+2492 Minimum Score of a Path Between Two Cities Medium depth-first-search breadth-first-search union-find graph
+2493 Divide Nodes Into the Maximum Number of Groups Hard breadth-first-search union-find graph
+2496 Maximum Value of a String in an Array Easy array string
+2497 Maximum Star Sum of a Graph Medium array greedy graph sorting heap-priority-queue
+2498 Frog Jump II Medium array binary-search greedy
+2499 Minimum Total Cost to Make Arrays Unequal Hard array hash-table greedy counting
+2500 Delete Greatest Value in Each Row Easy array sorting matrix
+2501 Longest Square Streak in an Array Medium array hash-table binary-search dynamic-programming sorting
+2502 Design Memory Allocator Medium array hash-table design simulation
+2503 Maximum Number of Points From Grid Queries Hard array breadth-first-search union-find sorting heap-priority-queue
+2506 Count Pairs Of Similar Strings Easy array hash-table string
+2507 Smallest Value After Replacing With Sum of Prime Factors Medium math number-theory
+2508 Add Edges to Make Degrees of All Nodes Even Hard hash-table graph
+2509 Cycle Length Queries in a Tree Hard tree binary-tree
+2511 Maximum Enemy Forts That Can Be Captured Easy array two-pointers
+2512 Reward Top K Students Medium array hash-table string sorting heap-priority-queue
+2513 Minimize the Maximum of Two Arrays Medium math binary-search number-theory
+2514 Count Anagrams Hard hash-table math string combinatorics counting
+2515 Shortest Distance to Target String in a Circular Array Easy array string
+2516 Take K of Each Character From Left and Right Medium hash-table string sliding-window
+2517 Maximum Tastiness of Candy Basket Medium array binary-search sorting
+2518 Number of Great Partitions Hard array dynamic-programming
+2520 Count the Digits That Divide a Number Easy math
+2521 Distinct Prime Factors of Product of Array Medium array hash-table math number-theory
+2522 Partition String Into Substrings With Values at Most K Medium string dynamic-programming greedy
+2523 Closest Prime Numbers in Range Medium math number-theory
+2525 Categorize Box According to Criteria Easy math
+2526 Find Consecutive Integers from a Data Stream Medium hash-table design queue counting data-stream
+2527 Find Xor-Beauty of Array Medium array math bit-manipulation
+2528 Maximize the Minimum Powered City Hard array binary-search greedy queue sliding-window prefix-sum
+2529 Maximum Count of Positive Integer and Negative Integer Easy array binary-search counting
+2530 Maximal Score After Applying K Operations Medium array greedy heap-priority-queue
+2531 Make Number of Distinct Characters Equal Medium hash-table string counting
+2532 Time to Cross a Bridge Hard array heap-priority-queue simulation
+2535 Difference Between Element Sum and Digit Sum of an Array Easy array math
+2536 Increment Submatrices by One Medium array matrix prefix-sum
+2537 Count the Number of Good Subarrays Medium array hash-table sliding-window
+2538 Difference Between Maximum and Minimum Price Sum Hard array dynamic-programming tree depth-first-search
+2540 Minimum Common Value Easy array hash-table two-pointers binary-search
+2541 Minimum Operations to Make Array Equal II Medium array math greedy
+2542 Maximum Subsequence Score Medium array greedy sorting heap-priority-queue
+2543 Check if Point Is Reachable Hard math number-theory
+2544 Alternating Digit Sum Easy math
+2545 Sort the Students by Their Kth Score Medium array sorting matrix
+2546 Apply Bitwise Operations to Make Strings Equal Medium string bit-manipulation
+2547 Minimum Cost to Split an Array Hard array hash-table dynamic-programming counting
+2549 Count Distinct Numbers on Board Easy array hash-table math simulation
+2550 Count Collisions of Monkeys on a Polygon Medium math recursion
+2551 Put Marbles in Bags Hard array greedy sorting heap-priority-queue
+2552 Count Increasing Quadruplets Hard array dynamic-programming binary-indexed-tree enumeration prefix-sum
+2553 Separate the Digits in an Array Easy array simulation
+2554 Maximum Number of Integers to Choose From a Range I Medium array hash-table binary-search greedy sorting
+2555 Maximize Win From Two Segments Medium array binary-search sliding-window
+2556 Disconnect Path in a Binary Matrix by at Most One Flip Medium array dynamic-programming depth-first-search breadth-first-search matrix
+2558 Take Gifts From the Richest Pile Easy array heap-priority-queue simulation
+2559 Count Vowel Strings in Ranges Medium array string prefix-sum
+2560 House Robber IV Medium array binary-search
+2561 Rearranging Fruits Hard array hash-table greedy
+2562 Find the Array Concatenation Value Easy array two-pointers simulation
+2563 Count the Number of Fair Pairs Medium array two-pointers binary-search sorting
+2564 Substring XOR Queries Medium array hash-table string bit-manipulation
+2565 Subsequence With the Minimum Score Hard two-pointers string binary-search
+2566 Maximum Difference by Remapping a Digit Easy math greedy
+2567 Minimum Score by Changing Two Elements Medium array greedy sorting
+2568 Minimum Impossible OR Medium array bit-manipulation brainteaser
+2569 Handling Sum Queries After Update Hard array segment-tree
+2570 Merge Two 2D Arrays by Summing Values Easy array hash-table two-pointers
+2571 Minimum Operations to Reduce an Integer to 0 Medium dynamic-programming greedy bit-manipulation
+2572 Count the Number of Square-Free Subsets Medium array math dynamic-programming bit-manipulation bitmask
+2573 Find the String with LCP Hard string dynamic-programming greedy union-find
+2574 Left and Right Sum Differences Easy array prefix-sum
+2575 Find the Divisibility Array of a String Medium array math string
+2576 Find the Maximum Number of Marked Indices Medium array two-pointers binary-search greedy sorting
+2577 Minimum Time to Visit a Cell In a Grid Hard array breadth-first-search graph heap-priority-queue matrix shortest-path
+2578 Split With Minimum Sum Easy math greedy sorting
+2579 Count Total Number of Colored Cells Medium math
+2580 Count Ways to Group Overlapping Ranges Medium array sorting
+2581 Count Number of Possible Root Nodes Hard hash-table dynamic-programming tree depth-first-search
+2582 Pass the Pillow Easy math simulation
+2583 Kth Largest Sum in a Binary Tree Medium binary-search tree breadth-first-search
+2584 Split the Array to Make Coprime Products Hard array hash-table math number-theory
+2585 Number of Ways to Earn Points Hard array dynamic-programming
+2586 Count the Number of Vowel Strings in Range Easy array string
+2587 Rearrange Array to Maximize Prefix Score Medium array greedy sorting prefix-sum
+2588 Count the Number of Beautiful Subarrays Medium array hash-table bit-manipulation prefix-sum
+2589 Minimum Time to Complete All Tasks Hard array binary-search stack greedy sorting
+2591 Distribute Money to Maximum Children Easy math greedy
+2592 Maximize Greatness of an Array Medium array two-pointers greedy sorting
+2593 Find Score of an Array After Marking All Elements Medium array sorting heap-priority-queue simulation
+2594 Minimum Time to Repair Cars Medium array binary-search
+2595 Number of Even and Odd Bits Easy bit-manipulation
+2596 Check Knight Tour Configuration Medium array depth-first-search breadth-first-search matrix simulation
+2597 The Number of Beautiful Subsets Medium array dynamic-programming backtracking
+2598 Smallest Missing Non-negative Integer After Operations Medium array hash-table math greedy
+2600 K Items With the Maximum Sum Easy math greedy
+2601 Prime Subtraction Operation Medium array math binary-search greedy number-theory
+2602 Minimum Operations to Make All Array Elements Equal Medium array binary-search sorting prefix-sum
+2603 Collect Coins in a Tree Hard array tree graph topological-sort
+2605 Form Smallest Number From Two Digit Arrays Easy array hash-table enumeration
+2606 Find the Substring With Maximum Cost Medium array hash-table string dynamic-programming
+2607 Make K-Subarray Sums Equal Medium array math sorting number-theory
+2608 Shortest Cycle in a Graph Hard breadth-first-search graph
+2609 Find the Longest Balanced Substring of a Binary String Easy string
+2610 Convert an Array Into a 2D Array With Conditions Medium array hash-table
+2611 Mice and Cheese Medium array greedy sorting heap-priority-queue
+2612 Minimum Reverse Operations Hard array breadth-first-search ordered-set
+2614 Prime In Diagonal Easy array math matrix number-theory
+2615 Sum of Distances Medium array hash-table prefix-sum
+2616 Minimize the Maximum Difference of Pairs Medium array binary-search greedy
+2617 Minimum Number of Visited Cells in a Grid Hard array binary-search dynamic-programming stack union-find binary-indexed-tree segment-tree
+2618 Check if Object Instance of Class Medium
+2619 Array Prototype Last Easy
+2620 Counter Easy
+2621 Sleep Easy
+2622 Cache With Time Limit Medium
+2623 Memoize Medium
+2624 Snail Traversal Medium
+2625 Flatten Deeply Nested Array Medium
+2626 Array Reduce Transformation Easy
+2627 Debounce Medium
+2628 JSON Deep Equal Medium
+2629 Function Composition Easy
+2630 Memoize II Hard
+2631 Group By Medium
+2632 Curry Medium
+2633 Convert Object to JSON String Medium
+2634 Filter Elements from Array Easy
+2635 Apply Transform Over Each Element in Array Easy
+2636 Promise Pool Medium
+2637 Promise Time Limit Easy
+2639 Find the Width of Columns of a Grid Easy array matrix
+2640 Find the Score of All Prefixes of an Array Medium array prefix-sum
+2641 Cousins in Binary Tree II Medium hash-table tree depth-first-search breadth-first-search binary-tree
+2642 Design Graph With Shortest Path Calculator Hard graph design heap-priority-queue shortest-path
+2643 Row With Maximum Ones Easy array matrix
+2644 Find the Maximum Divisibility Score Easy array
+2645 Minimum Additions to Make Valid String Medium string dynamic-programming stack greedy
+2646 Minimize the Total Price of the Trips Hard array dynamic-programming tree depth-first-search
+2648 Generate Fibonacci Sequence Easy
+2649 Nested Array Generator Medium
+2650 Design Cancellable Function Hard
+2651 Calculate Delayed Arrival Time Easy math
+2652 Sum Multiples Easy array math number-theory
+2653 Sliding Subarray Beauty Medium array hash-table sliding-window
+2654 Minimum Number of Operations to Make All Array Elements Equal to 1 Medium array math number-theory
+2636 Promise Pool Medium
+2656 Maximum Sum With Exactly K Elements  Easy array greedy
+2657 Find the Prefix Common Array of Two Arrays Medium array hash-table
+2658 Maximum Number of Fish in a Grid Medium array depth-first-search breadth-first-search union-find matrix
+2659 Make Array Empty Hard array binary-search greedy binary-indexed-tree segment-tree sorting ordered-set
+2660 Determine the Winner of a Bowling Game Easy array simulation
+2661 First Completely Painted Row or Column Medium array hash-table matrix
+2662 Minimum Cost of a Path With Special Roads Medium array graph heap-priority-queue shortest-path
+2663 Lexicographically Smallest Beautiful String Hard string greedy
+2665 Counter II Easy
+2666 Allow One Function Call Easy
+2667 Create Hello World Function Easy
+2670 Find the Distinct Difference Array Easy array hash-table
+70 Climbing Stairs Easy math dynamic-programming memoization
+2671 Frequency Tracker Medium hash-table design
+2672 Number of Adjacent Elements With the Same Color Medium array
+2673 Make Costs of Paths Equal in a Binary Tree Medium array dynamic-programming greedy tree binary-tree
+2675 Array of Objects to Matrix Medium
+2676 Throttle Medium
+2677 Chunk Array Easy
+2678 Number of Senior Citizens Easy
+2679 Sum in a Matrix Medium
+2680 Maximum OR Medium
+2681 Power of Heroes Hard
+2682 Find the Losers of the Circular Game Easy
+2683 Neighboring Bitwise XOR Medium
+2684 Maximum Number of Moves in a Grid Medium
+2685 Count the Number of Complete Components Medium
