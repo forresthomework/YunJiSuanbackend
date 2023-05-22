@@ -68,11 +68,31 @@ func GetSpecificQuestionFromDataBase(search string) Result {
 	return res
 }
 
-func main() {
+// 设置 CORS 头信息的处理器函数
+func allowCORS(handler http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		// 设置允许跨域请求的头信息
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 
+		// 如果是预检请求（OPTIONS），直接返回成功状态码
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		// 调用原始的处理器函数处理请求
+		handler.ServeHTTP(w, r)
+	})
+}
+
+func main() {
+	// 创建 CORS 处理器
+	corsHandler := allowCORS(http.DefaultServeMux)
 	http.HandleFunc("/results.html", Search)
 	log.Println("Running at port 9999 ...")
-	err := http.ListenAndServe(":9999", nil)
+	err := http.ListenAndServe(":9999", corsHandler)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err.Error())
 	}
