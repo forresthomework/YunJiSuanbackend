@@ -7,6 +7,8 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"net/http"
+	"strconv"
+	"strings"
 )
 
 var db *sql.DB
@@ -26,6 +28,7 @@ type Result struct {
 	Algorithm_label string `json:"algorithm_label"`
 	URL             string `json:"url"`
 	Difficulty      string `json:"difficulty"`
+	Status_info     string `json:"status_info"`
 }
 
 // 接收GET请求
@@ -33,39 +36,109 @@ func Search(w http.ResponseWriter, request *http.Request) {
 
 	query := request.URL.Query()
 
-	// 第一种方式
-	// id := query["id"][0]
-
-	// 第二种方式
-
 	search := query.Get("search")
+	/*
+			合理的search应该是这样的
+		1.不能为空串 code:9
+		2.如果是数字，代表着特定题目，所以应该直接返回,数字应该有一个限制 code:1
+		3.如果是字符串分为
+			a).two形式，代表一个关键字 code:4
+			a).Two Sum形式，代表着指定题目，同2应该直接返回 code:2
+			b).easy+sum形式，中间有加号代表多个关键字 code:3
+		4.其他情况返回错误信息：未授权的搜索方式 code:9
+
+	*/
 
 	log.Printf("GET: search=%s\n", search)
-	result := GetSpecificQuestionFromDataBase(search)
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusOK)
-	json.NewEncoder(w).Encode(result)
+	checkCode, err := CheckSearchString(search)
+	if err != nil {
+		w.WriteHeader(http.StatusNotFound)
+		json.NewEncoder(w).Encode(Result{Status_info: err.Error()})
+	} else {
+		var result Result
+		var errMsg error
+		var results []Result
+		switch checkCode {
+		case 1:
+			result, errMsg = GetQuestionFromQuestionId(search)
+		case 2:
+			result, errMsg = GetQuestionFromTitle(search)
+		case 3:
+			result, errMsg = GetQuestionFromQuestionId(search)
+		case 4:
+			result, errMsg = GetQuestionFromQuestionId(search)
+		case 9:
+			result, errMsg = GetQuestionFromQuestionId(search)
+		}
+		if errMsg != nil {
+			w.WriteHeader(http.StatusNotFound)
+			json.NewEncoder(w).Encode(Result{Status_info: err.Error()})
+		} else {
+			w.Header().Set("Content-Type", "application/json")
+			w.WriteHeader(http.StatusOK)
+			if len(results) == 0 {
+				json.NewEncoder(w).Encode(result)
+			} else {
+				json.NewEncoder(w).Encode(results)
+			}
+		}
+	}
 }
 
-func GetSpecificQuestionFromDataBase(search string) Result {
+func CheckSearchString(search string) (int, error) { // int代表
+	if isNumberInRange(search) {
+		return 1, nil
+	} else if strings.Contains(search, " ") {
+		return 2, nil
+	} else if strings.Contains(search, "+") {
+		return 3, nil
+	} else if len(search) > 0 && search != "" {
+		return 4, nil
+	} else {
+		return 9, fmt.Errorf("Error:Search formation is wrong!")
+	}
+}
+
+func GetQuestionsFromKeyWords(search string) ([]Result, error) {
+
+}
+
+func GetQuestionFromTitle(title string) (Result, error) {
 	var res Result
-	query := "SELECT * FROM questions WHERE questionId = " + search
+	query := "SELECT * FROM questions WHERE title = " + title
 	rows, err := db.Query(query)
 	if err != nil {
-		fmt.Println("无法查询数据:", err)
-		return Result{}
+		return Result{}, fmt.Errorf("Error:Can't query data::", err)
 	}
 	defer rows.Close()
 
 	for rows.Next() {
 		err = rows.Scan(&res.Title, &res.ID, &res.Difficulty, &res.Algorithm_label, &res.URL)
 		if err != nil {
-			fmt.Println("数据扫描错误:", err)
-			return Result{}
+			return Result{}, fmt.Errorf("Error:Can't scan data::", err)
 		}
 	}
+	res.Status_info = "Success"
+	return res, nil
+}
 
-	return res
+func GetQuestionFromQuestionId(search string) (Result, error) {
+	var res Result
+	query := "SELECT * FROM questions WHERE questionId = " + search
+	rows, err := db.Query(query)
+	if err != nil {
+		return Result{}, fmt.Errorf("Error:Can't query data::", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&res.Title, &res.ID, &res.Difficulty, &res.Algorithm_label, &res.URL)
+		if err != nil {
+			return Result{}, fmt.Errorf("Error:Can't scan data::", err)
+		}
+	}
+	res.Status_info = "Success!"
+	return res, nil
 }
 
 // 设置 CORS 头信息的处理器函数
@@ -97,4 +170,19 @@ func main() {
 		log.Fatal("ListenAndServe: ", err.Error())
 	}
 
+}
+
+func isNumberInRange(str string) bool {
+	// 将字符串转换为整数
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		return false // 转换失败，不是一个有效的数字
+	}
+
+	// 判断数字是否在指定范围内
+	if num >= 1 && num <= 2200 {
+		return true // 在范围内
+	} else {
+		return false // 不在范围内
+	}
 }
