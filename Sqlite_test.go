@@ -1,4 +1,4 @@
-package YunJiSuanbackend
+package main
 
 import (
 	"bufio"
@@ -28,7 +28,7 @@ func Test_Convet_TXT_2_Redis(t *testing.T) {
 		return
 	}
 	//打开文件
-	file, err := os.Open("result1.txt")
+	file, err := os.Open("main/result1.txt")
 	if err != nil {
 		fmt.Println("无法打开文件:", err)
 		return
