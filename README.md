@@ -33,7 +33,7 @@
 ### 前端设计
 
 **文件目录**
-
+```bash
 │  .dockerignore
 │  Dockerfile
 │  index.html
@@ -53,6 +53,7 @@
     └─assets
             base.css
             main.css
+```
 
 **文件介绍**
 
