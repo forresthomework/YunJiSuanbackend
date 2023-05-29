@@ -74,25 +74,25 @@ package.json用来配置项目依赖，package-lock.json是由package.json自动
 2. 后端响应并将查询结果返回
 3. index.html将后端返回的数据POST发送给result.html进行解析并展示
 
-![image-20230529152714576](https://raw.githubusercontent.com/forresthomework/YunJiSuanbackend/main/img/image-20230529152714576.png?token=AV4P6JCGOTDNLMOK27737JLEORKB6)
+![image-20230529152714576](https://github.com/forresthomework/YunJiSuanbackend/blob/main/img/image-20230529152714576.png)
 
 index.html
 
 包含一个搜索框，单击“搜索”或者回车进行搜索
 
-![image-20230529152828238](https://raw.githubusercontent.com/forresthomework/YunJiSuanbackend/main/img/image-20230529152828238.png?token=AV4P6JBKGYVXCTEKZ4YHRRDEORKFU)
+![image-20230529152828238](https://github.com/forresthomework/YunJiSuanbackend/blob/main/img/image-20230529152828238.png)
 
 result.html
 
 包含一个搜索框，单击“搜索”或者回车进行搜索，并会将返回的数据显示出来，返回数据的顺序按照count数量从大到小排列，数据包括题目ID、题目名称、关键字出现次数、算法标签、难度标签。
 
-![image-20230529152911545](https://raw.githubusercontent.com/forresthomework/YunJiSuanbackend/main/img/image-20230529152911545.png?token=AV4P6JERWELKC32RUAOISMTEORKIM)
+![image-20230529152911545](https://github.com/forresthomework/YunJiSuanbackend/blob/main/img/image-20230529152911545.png)
 
 **错误处理**
 
 当查询为空或者返回数据不成功时则会弹窗并刷新页面
 
-![image-20230529152953565](https://raw.githubusercontent.com/forresthomework/YunJiSuanbackend/main/img/image-20230529152953565.png?token=AV4P6JDSI7SC5DXTN5ZUNJ3EORKLA)
+![image-20230529152953565](https://github.com/forresthomework/YunJiSuanbackend/blob/main/img/image-20230529152953565.png)
 
 ### 后端设计
 
