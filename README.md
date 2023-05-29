@@ -16,7 +16,7 @@
 
 #### 语言
 
-[![](https://img.shields.io/badge/vue.js-green.svg)]()[![](https://img.shields.io/badge/javascript-yellow.svg)]()[![](https://img.shields.io/badge/html-red.svg)]()[![](https://img.shields.io/badge/css-purple.svg)]()
+[![](https://img.shields.io/badge/vue.js-green.svg)]() [![](https://img.shields.io/badge/javascript-yellow.svg)]() [![](https://img.shields.io/badge/html-red.svg)]()[![](https://img.shields.io/badge/css-purple.svg)]()
 
 ### 后端部分
 
