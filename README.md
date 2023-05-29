@@ -100,7 +100,20 @@ result.html
 
 
 ### 调试和运行
-
+**前端本地调试**
+切换到前端网页根目录
+```bash
+cd front
+```
+安装依赖
+```bash
+npm install
+```
+启动应用
+```bash
+node server.js
+```
+访问localhost:5173即可
 **docker-compose一键部署**
 
 本程序运行所需要的三个镜像已经上传至Docker Hub，直接拉取使用即可。
