@@ -32,7 +32,7 @@
 
 ### 前端设计
 
-文件目录
+**文件目录**
 
 │  .dockerignore
 │  Dockerfile
@@ -54,7 +54,7 @@
             base.css
             main.css
 
-文件介绍
+**文件介绍**
 
 index.html和results.html为主要的交互页面
 
@@ -68,7 +68,7 @@ server.js用来本地调试启动应用
 
 package.json用来配置项目依赖，package-lock.json是由package.json自动生成
 
-交互设计
+**交互设计**
 
 1. index.html输入查询语句，使用POST发送请求给后端
 2. 后端响应并将查询结果返回
@@ -88,7 +88,7 @@ result.html
 
 ![image-20230529152911545](https://raw.githubusercontent.com/forresthomework/YunJiSuanbackend/main/img/image-20230529152911545.png?token=AV4P6JERWELKC32RUAOISMTEORKIM)
 
-错误处理
+**错误处理**
 
 当查询为空或者返回数据不成功时则会弹窗并刷新页面
 
@@ -99,3 +99,46 @@ result.html
 
 
 ### 调试和运行
+
+**docker-compose一键部署**
+
+本程序运行所需要的三个镜像已经上传至Docker Hub，直接拉取使用即可。
+
+编写docker-compose.yml文件
+
+```yaml
+version: '3.8'
+services:
+  backend:
+    image: merk11/search-engine:backend
+    ports:
+      - 9999:9999
+    networks:
+      - mynetwork
+    depends_on:
+      - db
+  db:
+    image: merk11/search-engine:redis
+    ports:
+      - 6379:6379
+    networks:
+      - mynetwork	
+  front:
+    image: merk11/search-engine:front
+    ports:
+      - 5173:5173
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
+```
+
+在docker-compose.yml文件目录下执行命令
+
+```bash
+docker-compose up
+```
+
+即可拉取镜像，并启动服务，访问localhost:5173即可。
