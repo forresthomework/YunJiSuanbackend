@@ -1,6 +1,6 @@
 # 基于云和MapReduce的文本检索
 
-[![](https://img.shields.io/badge/env-docker compose 2.17.3-blue.svg)](https://github.com/docker/compose)
+[![](https://img.shields.io/badge/env-dockercompose2.17.3-blue.svg)](https://github.com/docker/compose)
 
 ## 项目介绍
 
