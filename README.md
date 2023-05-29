@@ -1,15 +1,37 @@
-# YunJiSuanbackend
-云计算安全期末后端作业
+# 基于云和MapReduce的文本检索
 
-```bash
-git clone https://github.com/forresthomework/YunJiSuanbackend.git
-cd YunJiSuanbackend
-docker run -d --name my-redis -p 6379:6379 redis
-go test -run Test_Convet_TXT_2_Redis
-//1.从main函数启动
-cd main
-go run main.go
-//2.从docker启动
-docker build -t backend .
-docker run -d --name yunjisuanbackend -p 9999:9999 backend
-```
+[![](https://img.shields.io/badge/env-docker compose 2.17.3-blue.svg)](https://github.com/docker/compose)
+
+## 项目介绍
+
+
+
+## 开发环境
+
+### 前端部分
+
+#### 环境
+
+[![](https://img.shields.io/badge/Node.js-18.5.0-green.svg)]()[![](https://img.shields.io/badge/npm-9.5.0-green.svg)]()
+
+#### 语言
+
+[![](https://img.shields.io/badge/vue.js-green.svg)]()[![](https://img.shields.io/badge/javascript-yellow.svg)]()[![](https://img.shields.io/badge/html-red.svg)]()[![](https://img.shields.io/badge/css-purple.svg)]()
+
+### 后端部分
+
+
+
+## 项目细节
+
+
+
+### 倒排索引介绍
+
+
+
+### 前端设计
+
+
+
+### 后端设计
