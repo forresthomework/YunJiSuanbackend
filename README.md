@@ -321,6 +321,18 @@ reducer.go中，依旧是读取每一行，接着使用一个map结构来计算�
 最后将其合并为一个文件，可以看到确实有的单词在一篇文章中出现了多次
 
 ![image-20230531193752204](img/image-20230531193752204.png)
+**用到的命令**
+```bash
+ hdfs dfs -ls /output
+
+hdfs dfs -cat /output/part-00003
+
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar -D mapreduce.job.maps=4 -D mapreduce.job.reduces=4 -file mapper.go -file reducer.go -mapper "go run mapper.go" -reducer "go run reducer.go" -input /input/input.txt -output /output
+
+hdfs dfs -rm -r /output
+
+hdfs dfs -put input.txt /input
+```
 
 #### 3. 将数据排序并加载进redis
 
@@ -390,6 +402,15 @@ npm install
 node server.js
 ```
 访问localhost:5173即可
+
+**后端本地调试**
+```bash
+docker pull redis:latest
+docker run -itd --name redis-test -p 6379:6379 redis
+go mod tidy
+go test -run Test_Convet_TXT_2_Redis
+go run main.go
+```
 
 **docker-compose一键部署**
 
