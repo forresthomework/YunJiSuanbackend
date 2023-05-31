@@ -40,7 +40,7 @@
 单词1 出现的次数  单词出现的位置； 单词2 单词2出现的位置  ...
 ```
 
-![淘宝、阿里、京东、腾讯等一线大厂都在用的搜索引擎技术，你确定不来看看？_钱难有～的博客-CSDN博客_elasticsearch客户端下载](D:\project\YunJiSuanbackend\img\058c972ce01cb5466414d3aa7c956af8.jpeg)
+![淘宝、阿里、京东、腾讯等一线大厂都在用的搜索引擎技术，你确定不来看看？_钱难有～的博客-CSDN博客_elasticsearch客户端下载](img\058c972ce01cb5466414d3aa7c956af8.jpeg)
 
 #### 倒排索引
 
@@ -54,7 +54,7 @@
 
 例如有7个txt文件里涉及到与Hadoop有关的内容，我们想对`hadoop` `hdfs` `mapreduce`进行倒排索引，最终想要的结果可能是这样的
 
-![在这里插入图片描述](D:\project\YunJiSuanbackend\img\watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hoaGFoYWhhaGE=,size_16,color_FFFFFF,t_70.png)
+![在这里插入图片描述](img\watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hoaGFoYWhhaGE=,size_16,color_FFFFFF,t_70.png)
 
 
 
@@ -202,15 +202,15 @@ result.html
 
    可以得到结果：
 
-   ![image-20230531191128961](D:\project\YunJiSuanbackend\img\image-20230531191128961.png)
+   ![image-20230531191128961](img\image-20230531191128961.png)
 
    查看爬到的数据并存到数据库里：
 
-   ![image-20230531191259322](D:\project\YunJiSuanbackend\img\image-20230531191259322.png)
+   ![image-20230531191259322](img\image-20230531191259322.png)
 
    将数据处理为一个文件准备进行mapreduce的分词
 
-   ![image-20230531191443240](D:\project\YunJiSuanbackend\img\image-20230531191443240.png)
+   ![image-20230531191443240](img\image-20230531191443240.png)
 
 
 
@@ -310,11 +310,11 @@ reducer.go中，依旧是读取每一行，接着使用一个map结构来计算�
 
 最后我们输出的结果是：
 
-![image-20230531193646162](D:\project\YunJiSuanbackend\img\image-20230531193646162.png)
+![image-20230531193646162](img\image-20230531193646162.png)
 
 最后将其合并为一个文件，可以看到确实有的单词在一篇文章中出现了多次
 
-![image-20230531193752204](D:\project\YunJiSuanbackend\img\image-20230531193752204.png)
+![image-20230531193752204](img\image-20230531193752204.png)
 
 #### 3. 将数据排序并加载进redis
 
