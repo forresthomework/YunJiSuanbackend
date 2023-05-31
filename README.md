@@ -22,7 +22,13 @@
 
 ### 后端部分
 
-`go1.19.6`  `Hadoop 2.10.1 `  `redis 7.2` `Sqlite3` 
+#### 环境
+
+[![](https://img.shields.io/badge/go-1.19.6-blue.svg)]() [![](https://img.shields.io/badge/Hadoop-2.10.1-red.svg)]() [![](https://img.shields.io/badge/redis-7.2-blue.svg)]() [![](https://img.shields.io/badge/Sqlite-3-black.svg)]()
+
+#### 语言
+
+[![](https://img.shields.io/badge/go-blue.svg)]()
 
 ## 项目细节
 
