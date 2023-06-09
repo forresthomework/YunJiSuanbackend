@@ -1,6 +1,6 @@
 # 基于云和MapReduce的文本检索
 
-> **组员：马光煜 姚隽熠**
+> **组员：马光煜 姚隽熠 小组成员贡献度均为50%**
 
 [![](https://img.shields.io/badge/env-dockercompose2.17.3-blue.svg)](https://github.com/docker/compose)
 
